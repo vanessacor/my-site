@@ -1,0 +1,19 @@
+.main {
+  padding-top: 40px;
+  margin: 0 20px 40px 20px;
+  overflow: auto;
+  font-family: $text-font;
+  font-weight: 300;
+}
+
+@media (max-width: 840px) {
+  .main {
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 840px) {
+  .main {
+    margin: 0 40px;
+  }
+}

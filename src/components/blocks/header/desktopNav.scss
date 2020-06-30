@@ -1,0 +1,21 @@
+.desktop-nav {
+  display: none;
+  margin-left: 40px;
+
+  .menu-item {
+    margin-right: 40px;
+    padding-bottom: 10px;
+    color: $highlight-color;
+    font-family: $text-font;
+    font-size: 25px;
+  }
+  .selected {
+    border-bottom: 5px solid $highlight-color;
+  }
+}
+
+@media (min-width: 840px) {
+  .desktop-nav {
+    display: flex;
+  }
+}

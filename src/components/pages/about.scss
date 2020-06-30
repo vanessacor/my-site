@@ -1,0 +1,33 @@
+.about {
+  position: relative;
+
+  // section:first-of-type {
+  //   width: 55%;
+  // }
+
+  section {
+    margin-bottom: 30px;
+    padding-top: 30px;
+    width: 55%;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+    font-family: $text-font;
+    font-weight: 600;
+  }
+  img {
+    position: absolute;
+    top: 55px;
+    right: calc(1% + 1vw);
+  }
+}
+
+@media (max-width: 840px) {
+  .about section {
+    width: 100%;
+  }
+  .about section:first-of-type {
+    width: 55%;
+  }
+}

@@ -1,0 +1,39 @@
+.mobile-nav {
+  position: relative;
+  padding-top: 40px;
+  color: $highlight-color;
+
+  &-button {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 40px;
+    border: none;
+    color: $highlight-color;
+    background-color: transparent;
+  }
+
+  &-menu {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    background-color: $base-color-dark;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+    color: $highlight-color;
+    font-size: 25px;
+    font-family: $title-font;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 840px) {
+  .mobile-nav {
+    display: none;
+  }
+}

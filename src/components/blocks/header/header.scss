@@ -1,0 +1,13 @@
+.header {
+  padding-top: 15px;
+  background-color: $base-color-dark;
+  color: $highlight-color;
+
+  h1 {
+    margin: 0 20px 30px;
+    font-family: $title-font;
+    font-size: 48px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+}

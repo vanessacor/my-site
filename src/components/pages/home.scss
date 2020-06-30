@@ -1,0 +1,16 @@
+.home {
+  padding-top: 40px;
+
+  h2 {
+    max-width: 220px;
+    margin: 0 auto 70px;
+    font-size: calc(25px + 0.5vw);
+    font-family: $title-font;
+    font-weight: 300;
+  }
+
+  &-strong {
+    font-weight: 600;
+    font-style: italic;
+  }
+}
