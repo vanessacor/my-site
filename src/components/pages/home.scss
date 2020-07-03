@@ -3,7 +3,7 @@
 
   h2 {
     max-width: 220px;
-    margin: 0 auto 70px;
+    margin: 0 auto;
     font-size: calc(25px + 0.5vw);
     font-family: $title-font;
     font-weight: 300;
@@ -12,5 +12,21 @@
   &-strong {
     font-weight: 600;
     font-style: italic;
+  }
+
+  &-highlight {
+    display: inline-block;
+    position: relative;
+
+    &:before {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      right: 12%;
+      z-index: -1;
+      height: 80%;
+      width: 90%;
+      background-color: $highlight-color;
+    }
   }
 }

@@ -1,33 +1,20 @@
 .about {
-  position: relative;
-
-  // section:first-of-type {
-  //   width: 55%;
-  // }
-
-  section {
+  &-section {
     margin-bottom: 30px;
     padding-top: 30px;
-    width: 55%;
   }
 
-  h2 {
+  &-subtitle {
     margin-bottom: 20px;
-    font-family: $text-font;
-    font-weight: 600;
   }
-  img {
-    position: absolute;
-    top: 55px;
-    right: calc(1% + 1vw);
+  &-profile-img {
+    display: none;
+    float: right;
   }
 }
 
-@media (max-width: 840px) {
-  .about section {
-    width: 100%;
-  }
-  .about section:first-of-type {
-    width: 55%;
+@media (min-width: 840px) {
+  .about-profile-img {
+    display: inline;
   }
 }

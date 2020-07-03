@@ -33,8 +33,6 @@
 
       li {
         position: relative;
-        font-family: $text-font;
-        font-size: 14px;
         font-weight: bolder;
       }
       li:before {
@@ -46,6 +44,36 @@
         height: 80%;
         width: 100%;
         background-color: $accent-color;
+      }
+    }
+  }
+}
+
+@media (min-width: 840px) {
+  .experiments {
+    article {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto auto;
+      grid-template-areas:
+        "pic title"
+        "pic text"
+        "pic tags";
+      column-gap: 20px;
+
+      h3 {
+        grid-area: title;
+        margin-bottom: 0;
+        align-self: center;
+      }
+
+      img {
+        grid-area: pic;
+        justify-self: center;
+      }
+
+      ul {
+        grid-area: tags;
       }
     }
   }

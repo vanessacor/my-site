@@ -2,12 +2,16 @@ import React from "react";
 
 function About() {
   const profileHref =
-    "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/profile.jpg";
+    "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/profile600.jpg";
   return (
     <div className="about">
-      <img src={profileHref} alt="my profile"></img>
-      <section>
-        <h2>About Me</h2>
+      <img
+        src={profileHref}
+        alt="my profile"
+        className="about-profile-img"
+      ></img>
+      <section className="about-section">
+        <h2 className="about-subtitle">About Me</h2>
         <p>
           Drive awareness to increase engagement bake it in, core competencies,
           for draft policy ppml proposal great plan! let me diarize this, and we

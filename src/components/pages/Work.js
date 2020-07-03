@@ -1,5 +1,4 @@
 import React from "react";
-// import cv from "./../../../public/media/VanessaPoppeCV.pdf";
 
 function Work() {
   return (

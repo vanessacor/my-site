@@ -1,10 +1,5 @@
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: -100px;
-  left: 0;
   padding: 1rem;
-  overflow: hidden;
   border-top: 5px solid $accent-color;
   background-color: $base-color-dark;
   color: $highlight-color;
@@ -21,5 +16,9 @@
   li {
     list-style: none;
     font-size: calc(30px + 0.5vw);
+
+    a:visited {
+      color: $highlight-color;
+    }
   }
 }
