@@ -1,12 +1,12 @@
 .about {
   &-section {
-    margin-bottom: 30px;
-    padding-top: 30px;
+    margin-bottom: 60px;
   }
 
   &-subtitle {
     margin-bottom: 20px;
   }
+
   &-profile-img {
     display: none;
     float: right;
@@ -16,5 +16,6 @@
 @media (min-width: 840px) {
   .about-profile-img {
     display: inline;
+    margin: 0 0 40px 40px;
   }
 }

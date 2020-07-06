@@ -1,5 +1,4 @@
 .mobile-nav {
-  position: relative;
   padding-top: 40px;
   color: $highlight-color;
 
@@ -16,9 +15,9 @@
   &-menu {
     position: absolute;
     z-index: 1;
+    right: 0;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     width: 100%;
     background-color: $base-color-dark;
   }

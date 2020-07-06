@@ -4,7 +4,7 @@ import MobileNav from "./mobileNav";
 
 function Header() {
   return (
-    <div className="header">
+    <div className="header container">
       <h1>
         Vanessa <br />
         Poppe

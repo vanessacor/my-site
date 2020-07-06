@@ -2,7 +2,8 @@
 @import "./styles/reset.scss";
 @import "./styles/mixins.scss";
 @import "./styles/typography.scss";
-@import "./styles/layout.scss";
+@import "./styles/layout";
+@import "./app.scss";
 @import "./components/pages/home.scss";
 @import "./components/blocks/header/header.scss";
 @import "./components/blocks/header/desktopNav.scss";

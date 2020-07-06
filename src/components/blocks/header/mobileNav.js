@@ -32,7 +32,7 @@ class MobileNav extends Component {
           <i className="icon ion-md-menu"></i>
         </button>
         {toggled && (
-          <div className="mobile-nav-menu">
+          <div className="mobile-nav-menu container">
             <Link onClick={this.hideMenu} className="nav-item" to="/">
               Home
             </Link>

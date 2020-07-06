@@ -17,11 +17,11 @@
       margin-bottom: 0;
     }
 
-    &-title {
-      a {
-        margin-left: 10px;
-        color: $base-color-dark;
+    .experiment-links {
+      i {
+        margin-right: 10px;
       }
+      color: $base-color-dark;
     }
 
     &-tags {

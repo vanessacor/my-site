@@ -6,9 +6,9 @@ h1 {
 }
 
 h2 {
+  @include font-size(24px);
   font-family: $text-font;
   font-weight: 600;
-  @include font-size(24px);
 }
 
 h3 {
@@ -16,18 +16,14 @@ h3 {
 }
 
 p {
-  font-family: $text-font;
   @include font-size(16px);
+  font-family: $text-font;
   font-weight: 300;
 }
 
-ul {
-  list-style: none;
-}
-
 li {
-  font-family: $text-font;
   @include font-size(14px);
+  font-family: $text-font;
 }
 
 a a,
@@ -36,5 +32,5 @@ a:visited,
 a:focus,
 a:hover,
 a:active {
-  text-decoration: none;
+  color: $accent-color-dark;
 }
