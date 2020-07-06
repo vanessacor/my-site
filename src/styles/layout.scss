@@ -7,15 +7,10 @@
 .main {
   margin: 0 20px;
   padding-top: 60px;
+  max-width: 800px;
 }
 
-@media (max-width: 840px) {
-  .main {
-    max-width: 800px;
-  }
-}
-
-@media (min-width: 840px) {
+@media (min-width: 940px) {
   .main {
     margin: 0 auto;
     max-width: 900px;
