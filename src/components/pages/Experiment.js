@@ -2,6 +2,10 @@ import React from "react";
 
 function Experiment(props) {
   const { title, image, description, github, tags } = props;
+  function createMarkup() {
+    return { __html: `${description}` };
+  }
+
   return (
     <article className="experiment-article">
       <h3 className="experiment-article-title">{title}</h3>
@@ -17,7 +21,10 @@ function Experiment(props) {
         </a>
       </p>
 
-      <p className="experiment-article-description">{description}</p>
+      <div
+        className="experiment-article-description"
+        dangerouslySetInnerHTML={createMarkup()}
+      ></div>
       <ul className="experiment-article-tags">
         {tags.map((item) => (
           <li key={item}>{item}</li>

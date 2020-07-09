@@ -1,11 +1,11 @@
 {
-"id": "2",
-"title": "African Elephant",
-"link": "https://vanessacor.github.io/site/experiments/african-elephant/",
-"image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/african-elephant.png",
+"id": "3",
+"title": "Photo Gallery",
+"link": "https://vanessacor.github.io/site/experiments/photo-gallery/",
+"image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/photo-gallery.png",
 "tags": ["HTML", "CSS", "Git/GitHub"],
-"gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/african-elephant",
-"date": "02/18/2019"
+"gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/photo-gallery",
+"date": "03/12/2019"
 }
 
 ---
