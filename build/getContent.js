@@ -1,5 +1,6 @@
 const findFiles = require("./findFiles");
 const getFileData = require("./getFileData");
+const saveFile = require("./saveFile");
 
 findFiles("./build/content")
   .then((files) => {
@@ -8,6 +9,17 @@ findFiles("./build/content")
     });
     return Promise.all(promises);
   })
+
+  .then((arrayOfFiles) => {
+    const ps = arrayOfFiles.sort(function (a, b) {
+      return new Date(b.date) - new Date(a.date);
+    });
+    return ps;
+  })
+  .then((dataTosave) => {
+    return saveFile(dataTosave);
+  })
+
   .then((result) => {
     console.log("FINISSHED!", result);
   })

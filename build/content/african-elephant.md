@@ -1,16 +1,14 @@
 {
 "id": "2",
-"title": "Concrete Surfers",
-"link": "https://vanessacor.github.io/site/experiments/concrete-surfers/",
+"title": "African Elephant",
+"link": "https://vanessacor.github.io/site/experiments/african-elephant/",
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/concrete-surfers.png",
-"tags": ["React", "Node.js", "Html"],
-"gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/concrete-surfers",
-"date": "04/04/2019"
+"tags": ["HTML", "CSS", "Git/GitHub"],
+"gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/my_journey",
+"date": "02/18/2019"
 }
 
 ---
-
-Dog and pony show pixel pushing. Drink the Kool-aid going forward,for flesh that out or thought shower we need a recap by eod, cob or whatever comes first yet i dont care if you got some copy, why you dont use officeipsumcom or something like that ?. Not enough bandwidth powerpoint.
 
 #### Annoying bug
 
