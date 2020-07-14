@@ -10,4 +10,12 @@
 
 ---
 
-On my third project for [Odin Project](https://www.theodinproject.com/courses/web-development-101). where I was asked to “build a browser version of something between a sketchpad and an Etch-A-Sketch” to flex my DOM manipulation skills. I also learn CSS grid. I had a lot of fun with this one and hope you enjoy it.
+On my third project for [Odin Project](https://www.theodinproject.com/courses/web-development-101). where I was asked to _“build a browser version of something between a sketchpad and an Etch-A-Sketch”_ to flex my DOM manipulation skills.
+
+At the top the user chooses the size of the grid, how many squares per line, and once the mouse hover over the grid-container squares are _painted_. The user can choose color-off mode and the squares will be in gray scale or color-on mode.
+
+To display the squares I used the CSS Grid model. I learnt a lot about DOM manipulation like appendChild, setAttribute, set style and classes.
+
+I believe that this time of project would work better if was created with canvas.
+
+I had a lot of fun with this one and hope you enjoy it.

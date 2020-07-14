@@ -1,17 +1,17 @@
 {
-"id": "10",
+"id": "12",
 "title": "Misstee",
 "link": "https://vanessacor.github.io/site/experiments/games/misstee/",
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/misstee.png",
-"tags": ["React", "Node.js", "Html"],
+"tags": ["HTML", "Canvas", "JavaScript"],
 "gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/games/misstee",
 "date": "02/01/2020"
 }
 
 ---
 
-Dog and pony show pixel pushing. Drink the Kool-aid going forward,for flesh that out or thought shower we need a recap by eod, cob or whatever comes first yet i dont care if you got some copy, why you dont use officeipsumcom or something like that ?. Not enough bandwidth powerpoint.
+After doing the canvas tutorial, I decide to adventure on making my own canvas html game! It takes inspirations in our lovely and sweet cat Misstee.
 
 #### Annoying bug
 
-Bunny, yet let's [prioritize](http://) the low-hanging fruit the last person we talked to said this would be ready. Cross functional teams enable out of the box brainstorming that ipo will be a game-changer what about scaling components to a global audience? but put it on the parking lot nor commitment to the cause for i don't want to drain the whole swamp, i just want to shoot some alligators
+It is a challenge to debug in canvas because a lot things happen at the same frame. I had this very annoying bug, it seemed that at some random times you would loose all the lives at once or your points would go 20 at once. It took a while to figure it out, because it didn't happen everytime, it looked so random. It turn out to be a very simple mistake that I made in a array.splice method.

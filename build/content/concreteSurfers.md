@@ -10,4 +10,10 @@
 
 ---
 
-A simple landing page that with HTML, CSS and javascript.
+The challenge here was to create a simple landing page that with HTML, CSS and javascript, with some kind a form registration.
+
+It a page to register in the Concrete Surfers community. Has brief description of the community followed by register form (name and email and submit button). The page displays some feedback from trustees and at the bottom a video is displayed.
+
+My first experience with HTML forms and video. Learnt the basics of form validation, landing pages UI and how to style a play button using css.
+
+_note: Yes, the video it's me almost killing a cyclist &#128515;._

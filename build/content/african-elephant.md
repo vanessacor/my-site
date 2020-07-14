@@ -10,4 +10,9 @@
 
 ---
 
-To continue my journey through HTML and CSS I created an info page (content from wikipedia) about one of my favourite animals. At the same time, I started learning JavaScript following the curriculum in the Odin Project, so I included a go to top button with JS. I looked at examples and adapted to my page.
+Create another static webpage to consolidate my learning of HTML and CSS.
+I built an info page (content from wikipedia) about one of my favourite animal.
+
+Because I started learning JavaScript following the curriculum in the Odin Project, I decided to include a go to top button with JS. I looked at examples and adapted to my page.
+
+Looking at the code I definetly should used less div and id's. It was hard for, I think sometimes still is, to know when to apply classes and ids.
