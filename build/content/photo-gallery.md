@@ -10,15 +10,15 @@
 
 ---
 
-I want to create an web-page where I would be able to apply my new CSS skills, namely responsive and mobile first approach.
+I wanted to create another static web-page where I would be able to apply my new CSS skills, namely, responsive web-design and mobile first approach.
 
-I decided that a photo galery of my instagram photos would be a good project. Photo Galery is a very simple and responsive webpage.
+I decided that a photo galery of my instagram photos would be a good project.
 
 Things I have learnt:
 
-- HTML (best practices)
-- CSS (flex box model)
+- HTML - best practices
+- CSS - flex box model
 
 Things I would do different now:
 
-- I would try to use instagram API to update this page everytime I posted something on my Inst account.
+- I would try to use instagram API to update this page every time I posted something on my Instagram account.

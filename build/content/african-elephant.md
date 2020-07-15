@@ -10,9 +10,15 @@
 
 ---
 
-Create another static webpage to consolidate my learning of HTML and CSS.
-I built an info page (content from wikipedia) about one of my favourite animal.
+In order to consolidate my learning of HTML and CSS I created another static webpage, an info page (content from wikipedia) about my favourite animal.
 
 Because I started learning JavaScript following the curriculum in the Odin Project, I decided to include a go to top button with JS. I looked at examples and adapted to my page.
 
-Looking at the code I definetly should used less div and id's. It was hard for, I think sometimes still is, to know when to apply classes and ids.
+What I have learnt:
+
+- JavaScript - functions, addEventListeners, if statements, style attributes;
+- CSS - model box, responsive web-design.
+
+What I would do differently:
+
+- Looking at the code I definitely would structure the HTML differently, less divs and would use the css selectors more wisely, like not id every element. At the time, it was quite hard for me, and I think sometimes it still is, to know when to apply classes and ids.
