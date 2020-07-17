@@ -14,11 +14,11 @@ I wanted to create another static web-page where I would be able to apply my new
 
 I decided that a photo galery of my instagram photos would be a good project.
 
-Things I have learnt:
+#### Things I have learnt:
 
 - HTML - best practices
 - CSS - flex box model
 
-Things I would do different now:
+#### Things I would do different now:
 
 - I would try to use instagram API to update this page every time I posted something on my Instagram account.

@@ -2,7 +2,7 @@ const findFiles = require("./findFiles");
 const getFileData = require("./getFileData");
 const saveFile = require("./saveFile");
 
-findFiles("./build/content")
+findFiles("./content")
   .then((files) => {
     const promises = files.map((filename) => {
       return getFileData(filename);

@@ -18,11 +18,11 @@ I learnt so much javascript doing this project. I remember how hard it was for m
 
 I am really proud of myself and have to thank the help of Andre and the coaches from [CodeBar Barcelona](https://codebar.io/barcelona).
 
-What I have learnt:
+#### What I have learnt:
 
 - JavaScript - conditional operators, functions (declaration, parameters and return value), arrow functions, loops, template literals, set time out;
 - CSS - media-queries,
 
-What I would do differently:
+#### What I would do differently:
 
 - I definitely would separate the business logic from UI logic, that's a distinction that I wasn't aware of at the time
