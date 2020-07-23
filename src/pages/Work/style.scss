@@ -1,7 +1,36 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
-.work {
+.Work {
+  &-cv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 40px;
+
+    a {
+      color: $base-color-dark;
+      font-size: 20px;
+
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  section {
+    margin-bottom: 40px;
+
+    h2 {
+      font-weight: lighter;
+    }
+
+    h3 {
+      margin-bottom: 0;
+      font-style: italic;
+    }
+  }
+
   &-skills {
     ul {
       display: flex;
@@ -38,44 +67,14 @@
       background-color: $highlight-color;
     }
   }
-  &-cv {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-bottom: 40px;
-
-    a {
-      color: $base-color-dark;
-      font-size: 20px;
-
-      i {
-        margin-right: 5px;
-      }
-    }
-  }
-
-  section {
-    margin-bottom: 40px;
-    h2 {
-      margin-bottom: 20px;
-      font-weight: lighter;
-    }
-  }
 
   &-education {
-    h3 {
-      font-style: italic;
-    }
     a {
       color: $base-color-dark;
     }
   }
 
-  &-job {
-    &-title {
-      font-style: italic;
-    }
-
+  &-xp {
     &-dates {
       @include font-size(14px);
       margin-bottom: 10px;
@@ -85,6 +84,7 @@
       margin-bottom: 20px;
     }
   }
+
   &-languages {
     li {
       @include font-size(16px);

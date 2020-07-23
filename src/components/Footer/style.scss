@@ -1,7 +1,7 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
-.footer {
+.Footer {
   padding: 1rem;
   border-top: 5px solid $accent-color;
   background-color: $base-color-dark;
@@ -20,7 +20,7 @@
     list-style: none;
     font-size: calc(30px + 0.5vw);
 
-    a:visited {
+    a {
       color: $highlight-color;
     }
   }

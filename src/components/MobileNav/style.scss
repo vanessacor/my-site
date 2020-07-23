@@ -1,7 +1,7 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
-.mobile-nav {
+.MobileNav {
   padding-top: 40px;
   color: $highlight-color;
 
@@ -32,10 +32,8 @@
     font-family: $title-font;
     font-weight: 300;
   }
-}
 
-@media (min-width: 840px) {
-  .mobile-nav {
+  @media (min-width: 840px) {
     display: none;
   }
 }

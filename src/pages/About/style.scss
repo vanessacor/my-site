@@ -1,7 +1,7 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
-.about {
+.About {
   &-section {
     margin-bottom: 60px;
 
@@ -15,19 +15,15 @@
     }
   }
 
-  &-subtitle {
-    margin-bottom: 20px;
-  }
-
   &-profile-img {
     display: none;
     float: right;
   }
-}
 
-@media (min-width: 840px) {
-  .about-profile-img {
-    display: inline;
-    margin: 0 0 40px 40px;
+  @media (min-width: 840px) {
+    &-profile-img {
+      display: inline;
+      margin: 0 0 40px 40px;
+    }
   }
 }

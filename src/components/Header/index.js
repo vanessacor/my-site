@@ -7,7 +7,7 @@ import "./style.scss";
 
 function Header() {
   return (
-    <div className="header container">
+    <div className="Header container">
       <h1>
         Vanessa <br />
         Poppe

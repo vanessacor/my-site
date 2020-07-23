@@ -7,8 +7,6 @@ class MobileNav extends Component {
   state = {
     toggled: false,
   };
-  // this.showMenu = this.showMenu.bind(this);
-  // this.hideMenu = this.hideMenu.bind(this);
 
   showMenu = () => {
     this.setState(function (prevState) {
@@ -29,12 +27,12 @@ class MobileNav extends Component {
   render() {
     const { toggled } = this.state;
     return (
-      <div className="mobile-nav">
-        <button className="mobile-nav-button" onClick={this.showMenu}>
+      <div className="MobileNav">
+        <button className="MobileNav-button" onClick={this.showMenu}>
           <i className="icon ion-md-menu"></i>
         </button>
         {toggled && (
-          <div className="mobile-nav-menu container">
+          <div className="MobileNav-menu container">
             <Link onClick={this.hideMenu} className="nav-item" to="/">
               Home
             </Link>

@@ -4,8 +4,8 @@ import "./style.scss";
 
 function Work() {
   return (
-    <div className="work">
-      <div className="work-cv">
+    <div className="Work">
+      <header className="Work-cv">
         <a
           target="_blank"
           href="https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/VanessaPoppeCV.pdf"
@@ -14,9 +14,9 @@ function Work() {
           <i className="icon ion-md-print"></i>
           <span>Print CV</span>
         </a>
-      </div>
+      </header>
 
-      <section className="work-skills">
+      <section className="Work-skills">
         <h2>Skills</h2>
         <ul>
           <li>HTML</li>
@@ -29,34 +29,33 @@ function Work() {
           <li>MongoDB</li>
           <li>React</li>
         </ul>
+      </section>
+
+      <section className="Work-education">
+        <h2>Education</h2>
+        <h3>BA (Hons) Clinical Psychology</h3>
         <p>
-          sjdksjdkasj djaskdjaskldj daksjdaklsjdasjd fjshdfjdhfjsh ashdjahsj
-          <a href="/about">about me</a> and{" "}
-          <a href="/porfolio">projects I hdhdh</a>
+          <a href="http://www.ispa.pt/">Instituto de Psicologia Aplicada </a>
         </p>
       </section>
 
-      <section className="work-education">
-        <h2>Education</h2>
-        <h3>BA (Hons) Clinical Psychology</h3>
-        <a href="http://www.ispa.pt/">Instituto de Psicologia Aplicada </a>
-      </section>
-      <section className="work-job">
+      <section className="Work-xp">
         <h2>Experience</h2>
-        <h3 className="work-job-title">Teaching Assistant</h3>
-        <p className="work-job-dates">from February 2000 to March 2010</p>
-        <p className="work-job-description">
+        <h3 className="Work-xp-title">Teaching Assistant</h3>
+        <p className="Work-xp-dates">from February 2000 to March 2010</p>
+        <p className="Work-xp-description">
           Put in in a deck for our standup today upstream selling, and get
           buy-in game-plan.
         </p>
-        <h3 className="work-job-title">Adoption Support Worker</h3>
-        <p className="work-job-dates">from February 2000 to March 2010</p>
-        <p className="work-job-description">
+        <h3 className="Work-xp-title">Adoption Support Worker</h3>
+        <p className="Work-xp-dates">from February 2000 to March 2010</p>
+        <p className="Work-xp-description">
           Put in a deck for our standup today upstream selling, and get buy-in
           game-plan.
         </p>
       </section>
-      <section className="work-languages">
+
+      <section className="Work-languages">
         <h2>Languages</h2>
         <ul>
           <li>

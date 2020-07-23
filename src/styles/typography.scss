@@ -7,22 +7,28 @@ h1 {
 
 h2 {
   @include font-size(24px);
+  margin-bottom: 20px;
   font-family: $text-font;
   font-weight: lighter;
 }
 
 h3 {
   @include font-size(20px);
+  margin-bottom: 10px;
 }
 
 h4 {
   @include font-size(16px);
+  margin-bottom: 5px;
+  padding-top: 15px;
   font-family: $text-font;
   font-weight: 500;
+  text-decoration: underline solid $accent-color;
 }
 
 p {
   @include font-size(16px);
+  margin-bottom: 10px;
   font-family: $text-font;
   font-weight: 300;
 }
@@ -32,11 +38,7 @@ li {
   font-family: $text-font;
 }
 
-a a,
-a:link,
-a:visited,
-a:focus,
-a:hover,
-a:active {
+a,
+a:link {
   color: $accent-color-dark;
 }

@@ -6,33 +6,37 @@ function About() {
   const profileHref =
     "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/profile600.jpg";
   return (
-    <div className="about">
+    <div className="About">
       <img
         src={profileHref}
         alt="my profile"
-        className="about-profile-img"
+        className="About-profile-img"
       ></img>
-      <section className="about-section">
-        <h2 className="about-subtitle">About Me</h2>
-        <p className="about-text">
+      <section className="About-section">
+        <h2>About Me</h2>
+        <p>
           I was born in Portugal, lived in London and now I live in the
           beautiful city of Barcelona.
-          <br />I studied psychology, worked for more than 5 years in the
-          Portuguese child protection system, then moved to London where I
-          worked in Adoption services and school support.
-          <br />
+        </p>
+        <p>
+          I studied psychology, worked for more than 5 years in the Portuguese
+          child protection system, then moved to London where I worked in
+          Adoption services and school support.
+        </p>
+        <p>
           After moving to Barcelona with my family I decided to do a U turn in
           my career and started learning Web Development. I am a self-taught
           web-developer and I have learnt HMTL, CSS, Javascript, Node.js,
           Express, React and built along the way some fun projects.
-          <br />I am currently looking to secure a challenging and rewarding new
-          role within the web industry and continue to develop my skills
-          further.
+        </p>
+        <p>
+          I am currently looking to secure a challenging and rewarding new role
+          within the web industry and continue to develop my skills further.
         </p>
       </section>
-      <section className="about-section">
-        <h2 className="about-subtitle">Where did I learnt</h2>
-        <p className="about-text">
+      <section className="About-section">
+        <h2>Where did I learnt</h2>
+        <p>
           My journey wouldn’t have been possible without the incredible
           communities that are out there ready to support you with no questions
           asked. I immensely thankful to all the the people involved in:

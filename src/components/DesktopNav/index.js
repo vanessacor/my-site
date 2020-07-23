@@ -5,20 +5,41 @@ import "./style.scss";
 
 function DesktopNav() {
   return (
-    <nav className="desktop-nav">
-      <NavLink className="menu-item" activeClassName="selected" exact to="/">
+    <nav className="DesktopNav">
+      <NavLink
+        className="DesktopNav-item"
+        activeClassName="selected"
+        exact
+        to="/"
+      >
         Home
       </NavLink>
-      <NavLink className="menu-item" activeClassName="selected" to="/about">
+      <NavLink
+        className="DesktopNav-item"
+        activeClassName="selected"
+        to="/about"
+      >
         About
       </NavLink>
-      <NavLink className="menu-item" activeClassName="selected" to="/portfolio">
+      <NavLink
+        className="DesktopNav-item"
+        activeClassName="selected"
+        to="/portfolio"
+      >
         Portfolio
       </NavLink>
-      <NavLink className="menu-item" activeClassName="selected" to="/work">
+      <NavLink
+        className="DesktopNav-item"
+        activeClassName="selected"
+        to="/work"
+      >
         Work
       </NavLink>
-      <NavLink className="menu-item" activeClassName="selected" to="/contact">
+      <NavLink
+        className="DesktopNav-item"
+        activeClassName="selected"
+        to="/contact"
+      >
         Contact
       </NavLink>
     </nav>

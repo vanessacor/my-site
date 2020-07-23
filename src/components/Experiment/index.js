@@ -9,21 +9,22 @@ function Experiment(props) {
   }
 
   return (
-    <article className="experiment-article">
-      <h3 className="experiment-article-title">
+    <article className="Experiment">
+      <h3 className="Experiment-title">
         <a href={link} target="_blank" alt={title}>
           {title}
         </a>
       </h3>
 
-      <a href={link} target="_blank" alt={title}>
-        <img
-          className="experiment-article-screenshot"
-          src={image}
-          alt={title}
-        ></img>
+      <a
+        href={link}
+        className="Experiment-screenshot"
+        target="_blank"
+        alt={title}
+      >
+        <img src={image} alt={title}></img>
       </a>
-      <p className="experiment-links">
+      <p className="Experiment-links">
         <a href={github} target="_blank" alt="github repo">
           <i className="icon ion-logo-github"></i>
           Source Code
@@ -31,10 +32,10 @@ function Experiment(props) {
       </p>
 
       <div
-        className="experiment-article-description"
+        className="Experiment-description"
         dangerouslySetInnerHTML={createMarkup()}
       ></div>
-      <ul className="experiment-article-tags">
+      <ul className="Experiment-tags">
         {tags.map((item) => (
           <li key={item}>{item}</li>
         ))}

@@ -1,87 +1,73 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
-.experiment {
+.Experiment {
   padding-top: 40px;
 
-  & article + article {
-    border-top: 4px solid $highlight-color;
+  > * {
+    margin-bottom: 20px;
   }
 
-  &-article {
-    padding-top: 40px;
-    margin-bottom: 40px;
+  &-title {
+    a {
+      color: $base-color-dark;
+    }
+    a:hover {
+      color: $accent-color-dark;
+    }
+  }
 
-    & > * {
-      margin-bottom: 20px;
+  &-screenshot {
+    display: block;
+  }
+
+  &-screenshot:hover img {
+    -webkit-filter: blur(2px);
+    filter: opacity(70%);
+  }
+
+  &-links {
+    i {
+      margin-right: 10px;
+    }
+    color: $base-color-dark;
+  }
+
+  &-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-left: 5px;
+    list-style: none;
+
+    & > li {
+      margin-right: 15px;
     }
 
     &:last-child {
-      margin-bottom: 0;
+      margin-right: 0;
     }
 
-    &-title {
-      a {
-        color: $base-color-dark;
-      }
-      a:hover {
-        color: $accent-color-dark;
-      }
+    li {
+      position: relative;
     }
 
-    &-screenshot:hover {
-      -webkit-filter: blur(2px);
-      filter: opacity(70%);
+    li:before {
+      content: " ";
+      position: absolute;
+      top: 50%;
+      right: 12%;
+      z-index: -1;
+      height: 80%;
+      width: 100%;
+      background-color: $accent-color;
     }
+  }
 
-    .experiment-links {
-      i {
-        margin-right: 10px;
-      }
-      color: $base-color-dark;
-    }
-
-    &-tags {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      padding-left: 5px;
-      list-style: none;
-
-      & > li {
-        margin-right: 15px;
-      }
-
-      &:last-child {
-        margin-right: 0;
-      }
-
-      li {
-        position: relative;
-      }
-      li:before {
-        content: " ";
-        position: absolute;
-        top: 50%;
-        right: 12%;
-        z-index: -1;
-        height: 80%;
-        width: 100%;
-        background-color: $accent-color;
-      }
-    }
-
-    &-description {
-      h4 {
-        padding-top: 15px;
-        margin-bottom: 5px;
-        text-decoration: underline solid $accent-color;
-      }
-
-      li {
-        list-style: disc;
-        margin-left: 25px;
-      }
+  &-description {
+    li {
+      list-style: disc;
+      margin-left: 25px;
     }
   }
 }

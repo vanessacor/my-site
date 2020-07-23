@@ -1,8 +1,23 @@
 @import "../../styles/variables.scss";
 @import "../../styles/mixins.scss";
 
-.portfolio {
-  &-title {
-    margin-bottom: 20px;
+.Portfolio {
+  &-text {
+    margin-bottom: 40px;
+  }
+
+  &-experiments {
+    > * {
+      margin-bottom: 40px;
+      border-top: 4px solid $highlight-color;
+
+      &:first-child {
+        border-top: none;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 }
