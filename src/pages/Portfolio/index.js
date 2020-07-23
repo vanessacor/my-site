@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Experiment from "./Experiment";
-import Data from "./../../../experiment2.json";
+import Experiment from "../../components/Experiment";
+import Data from "../../../experiment2.json";
 
 class Portfolio extends Component {
   constructor() {

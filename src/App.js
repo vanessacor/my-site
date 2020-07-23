@@ -1,15 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // import "./App.scss";
 
-import Header from "./components/blocks/header/Header";
-import Footer from "./components/blocks/Footer";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Portfolio from "./components/pages/Portfolio";
-import Work from "./components/pages/Work";
-import Contact from "./components/pages/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Work from "./pages/Work";
+import Contact from "./pages/Contact";
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (

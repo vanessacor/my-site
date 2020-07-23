@@ -1,6 +1,7 @@
 import React from "react";
-import DesktopNav from "./DesktopNav";
-import MobileNav from "./mobileNav";
+
+import DesktopNav from "../DesktopNav";
+import MobileNav from "../MobileNav";
 
 function Header() {
   return (

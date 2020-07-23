@@ -1,15 +1,17 @@
-@import "./styles/variables.scss";
-@import "./styles/reset.scss";
-@import "./styles/mixins.scss";
-@import "./styles/typography.scss";
+@import "./styles/variables";
+@import "./styles/reset";
+@import "./styles/mixins";
+@import "./styles/typography";
 @import "./styles/layout";
-@import "./app.scss";
-@import "./components/pages/home.scss";
-@import "./components/blocks/header/header.scss";
-@import "./components/blocks/header/desktopNav.scss";
-@import "./components/blocks/header/mobileNav.scss";
-@import "./components/blocks/footer.scss";
-@import "./components/pages/about.scss";
-@import "./components/pages/portfolio.scss";
-@import "./components/pages/experiment.scss";
-@import "./components/pages/work.scss";
+
+@import "./app";
+@import "./components/Header/style";
+@import "./components/DesktopNav/style";
+@import "./components/MobileNav/style";
+@import "./components/Footer/style";
+@import "./components/Experiment/style";
+
+@import "./pages/Home/style";
+@import "./pages/About/style";
+@import "./pages/Portfolio/style";
+@import "./pages/Work/style";
