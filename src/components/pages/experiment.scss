@@ -40,6 +40,7 @@
 
     &-tags {
       display: flex;
+      flex-wrap: wrap;
       justify-content: flex-start;
       padding-left: 5px;
       list-style: none;
@@ -64,6 +65,19 @@
         height: 80%;
         width: 100%;
         background-color: $accent-color;
+      }
+    }
+
+    &-description {
+      h4 {
+        padding-top: 15px;
+        margin-bottom: 5px;
+        text-decoration: underline solid $accent-color;
+      }
+
+      li {
+        list-style: disc;
+        margin-left: 25px;
       }
     }
   }

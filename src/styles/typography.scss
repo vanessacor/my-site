@@ -15,6 +15,12 @@ h3 {
   @include font-size(20px);
 }
 
+h4 {
+  @include font-size(16px);
+  font-family: $text-font;
+  font-weight: 500;
+}
+
 p {
   @include font-size(16px);
   font-family: $text-font;

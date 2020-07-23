@@ -13,26 +13,27 @@ function Work() {
           <span>Print CV</span>
         </a>
       </div>
-      <section className="work-summary">
-        <h2>Summary</h2>
-        <p>
-          Put in in a deck for our standup today upstream selling, and get
-          buy-in game-plan. Who's responsible for the ask for this request? that
-          ipo will be a game-changer. Deploy to production win-win-win
-          future-proof re-inventing the wheel, or i have a hard stop in an hour
-          and half we're ahead of the curve on that one corporate synergy.
-        </p>
-      </section>
+
       <section className="work-skills">
         <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git/Github</li>
+          <li>Sass</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+          <li>React</li>
+        </ul>
         <p>
-          Put in in a deck for our standup today upstream selling, and get
-          buy-in game-plan. Who's responsible for the ask for this request? that
-          ipo will be a game-changer. Deploy to production win-win-win
-          future-proof re-inventing the wheel, or i have a hard stop in an hour
-          and half we're ahead of the curve on that one corporate synergy.
+          sjdksjdkasj djaskdjaskldj daksjdaklsjdasjd fjshdfjdhfjsh ashdjahsj
+          <a href="/about">about me</a> and{" "}
+          <a href="/porfolio">projects I hdhdh</a>
         </p>
       </section>
+
       <section className="work-education">
         <h2>Education</h2>
         <h3>BA (Hons) Clinical Psychology</h3>

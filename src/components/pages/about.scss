@@ -1,6 +1,15 @@
 .about {
   &-section {
     margin-bottom: 60px;
+
+    h4 {
+      padding-top: 10px;
+      font-style: italic;
+    }
+
+    li {
+      margin-left: 15px;
+    }
   }
 
   &-subtitle {
