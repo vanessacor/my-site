@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./style.scss";
+
 function About() {
   const profileHref =
     "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/profile600.jpg";

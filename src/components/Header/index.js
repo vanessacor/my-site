@@ -3,6 +3,8 @@ import React from "react";
 import DesktopNav from "../DesktopNav";
 import MobileNav from "../MobileNav";
 
+import "./style.scss";
+
 function Header() {
   return (
     <div className="header container">

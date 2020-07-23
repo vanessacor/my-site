@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./style.scss";
+
 function Experiment(props) {
   const { title, link, image, description, github, tags } = props;
   function createMarkup() {

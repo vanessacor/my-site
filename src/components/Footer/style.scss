@@ -1,3 +1,6 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
 .footer {
   padding: 1rem;
   border-top: 5px solid $accent-color;
