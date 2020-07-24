@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.Tag {
+  position: relative;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 12%;
+    z-index: -1;
+    height: 80%;
+    width: 100%;
+    background-color: $accent-color;
+  }
+
+  &-alt {
+    position: relative;
+    font-family: $title-font;
+    @include font-size(25px);
+    font-style: italic;
+
+    &:before {
+      right: 6%;
+      height: 50%;
+      background-color: $highlight-color;
+    }
+  }
+}

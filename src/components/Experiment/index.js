@@ -2,6 +2,8 @@ import React from "react";
 
 import "./style.scss";
 
+import Tag from "../Tag";
+
 function Experiment(props) {
   const { title, link, image, description, github, tags } = props;
   function createMarkup() {
@@ -37,7 +39,7 @@ function Experiment(props) {
       ></div>
       <ul className="Experiment-tags">
         {tags.map((item) => (
-          <li key={item}>{item}</li>
+          <Tag key={item} tag={item} className={"Tag"} />
         ))}
       </ul>
     </article>

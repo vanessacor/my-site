@@ -47,21 +47,6 @@
     &:last-child {
       margin-right: 0;
     }
-
-    li {
-      position: relative;
-    }
-
-    li:before {
-      content: " ";
-      position: absolute;
-      top: 50%;
-      right: 12%;
-      z-index: -1;
-      height: 80%;
-      width: 100%;
-      background-color: $accent-color;
-    }
   }
 
   &-description {

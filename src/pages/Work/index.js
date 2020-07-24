@@ -2,7 +2,20 @@ import React from "react";
 
 import "./style.scss";
 
+import Tag from "../../components/Tag";
+
 function Work() {
+  const tags = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Git/GitHub",
+    "Sass",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "React",
+  ];
   return (
     <div className="Work">
       <header className="Work-cv">
@@ -19,16 +32,17 @@ function Work() {
       <section className="Work-skills">
         <h2>Skills</h2>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Git/Github</li>
-          <li>Sass</li>
-          <li>Node.js</li>
-          <li>Express</li>
-          <li>MongoDB</li>
-          <li>React</li>
+          {tags.map((item) => (
+            <Tag key={item} tag={item} className={"Tag Tag-alt"} />
+          ))}
         </ul>
+        <p>
+          To know more about me please visit <a href="/about">About Page.</a>
+        </p>
+        <p>
+          And if you want please check the <a href="/portfolio">projects</a> I
+          have been doing.
+        </p>
       </section>
 
       <section className="Work-education">
