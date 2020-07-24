@@ -5,18 +5,14 @@ import "./style.scss";
 import Tag from "../Tag";
 
 function Experiment(props) {
-  const { title, link, image, description, github, tags } = props;
+  const { title, link, image, description, github, tags, deploy } = props;
   function createMarkup() {
     return { __html: `${description}` };
   }
 
   return (
     <article className="Experiment">
-      <h3 className="Experiment-title">
-        <a href={link} target="_blank" alt={title}>
-          {title}
-        </a>
-      </h3>
+      <h3 className="Experiment-title">{title}</h3>
 
       <a
         href={link}
@@ -26,12 +22,21 @@ function Experiment(props) {
       >
         <img src={image} alt={title}></img>
       </a>
-      <p className="Experiment-links">
-        <a href={github} target="_blank" alt="github repo">
-          <i className="icon ion-logo-github"></i>
-          Source Code
-        </a>
-      </p>
+
+      <div className="Experiment-links">
+        <p>
+          <a href={link} target="_blank" alt="github repo">
+            <i class="icon ion-md-cloud-upload"></i>
+            Deployed on {deploy}
+          </a>
+        </p>
+        <p>
+          <a href={github} target="_blank" alt="github repo">
+            <i className="icon ion-logo-github"></i>
+            View Code on GitHub
+          </a>
+        </p>
+      </div>
 
       <div
         className="Experiment-description"

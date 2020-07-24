@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/canvasArt.png",
 "tags": ["HTML", "Canvas", "JavaScript"],
 "gitHubLink": "https://github.com/vanessacor/site/blob/master/experiments/canvas/canvas-art/script.js",
-"date": "01/12/2020"
+"date": "01/12/2020",
+"deploy": "GitHub Pages"
 }
 
 ---

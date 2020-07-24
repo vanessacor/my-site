@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/misstee.png",
 "tags": ["HTML", "Canvas", "JavaScript", "OPP"],
 "gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/games/misstee",
-"date": "02/01/2020"
+"date": "02/01/2020",
+"deploy": "GitHub Pages"
 }
 
 ---

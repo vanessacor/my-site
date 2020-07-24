@@ -4,7 +4,8 @@
 "link": "https://vanessacor.github.io/site/experiments/my_journey", "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/first-layout.png",
 "tags": ["HTML", "CSS", "Git/GitHub"],
 "gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/my_journey",
-"date": "02/11/2019"
+"date": "02/11/2019",
+"deploy": "GitHub Pages"
 }
 
 ---

@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/photo-gallery.png",
 "tags": ["HTML", "CSS", "Git/GitHub"],
 "gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/photo-gallery",
-"date": "03/12/2019"
+"date": "03/12/2019",
+"deploy": "GitHub Pages"
 }
 
 ---

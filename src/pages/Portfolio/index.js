@@ -20,6 +20,7 @@ class Portfolio extends Component {
         description={item.description}
         github={item.gitHubLink}
         tags={item.tags}
+        deploy={item.deploy}
       />
     ));
     return (

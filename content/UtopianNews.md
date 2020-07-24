@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/utopian.png",
 "tags": ["HTML", "CSS", "JavaScript"],
 "gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/utopian",
-"date": "06/04/2019"
+"date": "06/04/2019",
+"deploy": "GitHub Pages"
 }
 
 ---

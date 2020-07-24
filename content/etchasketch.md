@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/etch-a-sketch.png",
 "tags": ["HTML", "CSS", "JavaScript"],
 "gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/games/rock-paper-scissors",
-"date": "05/21/2019"
+"date": "05/21/2019",
+"deploy": "GitHub Pages"
 }
 
 ---

@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/mybookshelf.png",
 "tags": ["Node.js", "React", "RESTfull API", "SCSS"],
 "gitHubLink": "https://github.com/vanessacor/bookshelf-app",
-"date": "05/28/2020"
+"date": "05/28/2020",
+"deploy": "Heroku"
 }
 
 ---

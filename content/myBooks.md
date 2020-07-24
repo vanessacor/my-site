@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/mybooks.png",
 "tags": ["Node.js", "Express", "MongoDB", "SASS"],
 "gitHubLink": "https://github.com/vanessacor/bookeshelf",
-"date": "03/30/2020"
+"date": "03/30/2020",
+"deploy": "Heroku"
 }
 
 ---

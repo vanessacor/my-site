@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/my-books.png",
 "tags": ["HTML", "CSS", "JavaScript", "BDD"],
 "gitHubLink": "https://github.com/vanessacor/site/tree/master/experiments/library",
-"date": "09/12/2019"
+"date": "09/12/2019",
+"deploy": "GitHub Pages"
 }
 
 ---

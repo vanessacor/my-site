@@ -5,7 +5,8 @@
 "image": "https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/screenshots/meme-generator.png",
 "tags": ["Node.js", "React", "SASS"],
 "gitHubLink": "https://github.com/vanessacor/meme-generator",
-"date": "04/09/2020"
+"date": "04/09/2020",
+"deploy": "GitHub Pages"
 }
 
 ---
