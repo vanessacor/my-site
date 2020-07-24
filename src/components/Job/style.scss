@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+@import "../../styles/mixins.scss";
+
+.Job {
+  &-dates {
+    @include font-size(14px);
+    margin-bottom: 10px;
+  }
+
+  &-description {
+    margin-bottom: 20px;
+  }
+}

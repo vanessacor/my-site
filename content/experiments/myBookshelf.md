@@ -23,4 +23,4 @@ On the backend side, I created a Restful API using Node.js, express, mongoose.
 
 #### What I would do differently:
 
--
+- I would change the file structure to use the React convenctions

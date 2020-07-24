@@ -2,7 +2,7 @@ const findFiles = require("./findFiles");
 const getFileData = require("./getFileData");
 const saveFile = require("./saveFile");
 
-findFiles("./content/experiments")
+findFiles("./content/jobs")
   .then((files) => {
     const promises = files.map((filename) => {
       return getFileData(filename);
@@ -17,7 +17,7 @@ findFiles("./content/experiments")
     return ps;
   })
   .then((dataTosave) => {
-    return saveFile(dataTosave, "experiment2.json");
+    return saveFile(dataTosave, "jobs.json");
   })
 
   .then((result) => {
