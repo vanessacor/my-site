@@ -1,11 +1,11 @@
 {
-"id": "1",
+"id": "3",
 "company": "Jubilee Primary School",
 "location": "London",
 "jobTitle": "Teaching Assistant",
-"Dates": "March 2016 - July 2017"
+"dates": "March 2016 - July 2017"
 }
 
 ---
 
-Worked one-to-one with Special Educational Needs children, providing extra support and assistance in the classroom.
+I worked as one-to-one with Special Educational Needs children, providing extra support and assistance in the classroom.

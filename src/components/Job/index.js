@@ -10,9 +10,10 @@ function Job(props) {
 
   return (
     <div className="Job">
-      <h3 className="Job-title">{jobTitle}</h3>
-      <span>{company}</span>
-      <p>{location}</p>
+      <h3 className="Job-title">
+        {company} ({location})<span> - {jobTitle}</span>
+      </h3>
+
       <p className="Job-dates">{dates}</p>
       <div
         className="Job-description"

@@ -2,6 +2,11 @@
 @import "../../styles/mixins.scss";
 
 .Job {
+  &-title {
+    span {
+      font-weight: lighter;
+    }
+  }
   &-dates {
     @include font-size(14px);
     margin-bottom: 10px;

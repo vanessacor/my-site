@@ -3,11 +3,11 @@
 "company": "After Adoption",
 "location": "London",
 "jobTitle": "Adoption Support Worker",
-"Dates": "July 2013 - February 2016"
+"dates": "July 2013 - February 2016"
 }
 
 ---
 
-As an Adoption support assistant, I am responsible for deliver a range of specialist activities for post-adoption support groups.
+As an Adoption support assistant, I was responsible for delivering a range of specialist activities for post-adoption support groups.
 
-I also provide the administrative support to social workers who are delivering post-adoption services.
+I also provided the administrative support to social workers who were delivering post-adoption services.

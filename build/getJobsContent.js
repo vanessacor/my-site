@@ -12,7 +12,7 @@ findFiles("./content/jobs")
 
   .then((arrayOfFiles) => {
     const ps = arrayOfFiles.sort(function (a, b) {
-      return new Date(b.date) - new Date(a.date);
+      return b.id - a.id;
     });
     return ps;
   })
