@@ -1,7 +1,14 @@
 const path = require("path");
 const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const htmlWebpackPlugin = new HtmlWebpackPlugin({
+  template: path.join(__dirname, "/public/index.html"),
+  filename: "./index.html",
+});
 
-module.exports = {
+const env = process.env.NODE_ENV || "development";
+
+const config = {
   entry: "./src/index.js",
   mode: "development",
   module: {
@@ -22,6 +29,7 @@ module.exports = {
       },
     ],
   },
+  entry: { app: "./src/index.js" },
   resolve: { extensions: ["*", ".js", ".jsx"] },
   output: {
     path: path.resolve(__dirname, "dist/"),
@@ -34,5 +42,12 @@ module.exports = {
     publicPath: "http://localhost:3000/dist/",
     hot: false,
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  plugins: [new webpack.HotModuleReplacementPlugin(), htmlWebpackPlugin],
 };
+
+if (env === "production") {
+  config.mode = "production";
+  config.devtool = "source-map";
+}
+
+module.exports = config;
