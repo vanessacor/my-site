@@ -11,10 +11,11 @@ class ScrollUpBtn extends Component {
   }
 
   componentDidMount() {
-    var scrollComponent = this;
-    document.addEventListener("scroll", function (e) {
-      scrollComponent.checkScroll();
-    });
+    document.addEventListener("scroll", this.checkScroll, false);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener("scroll", this.checkScroll, false);
   }
 
   checkScroll = () => {
