@@ -6,6 +6,7 @@ import "./style.scss";
 
 import Job from "../../components/Job";
 import Tag from "../../components/Tag";
+import ScrollUpBtn from "../../components/ScrollUpBtn";
 
 class Work extends Component {
   constructor() {
@@ -28,6 +29,7 @@ class Work extends Component {
 
     return (
       <div className="Work">
+        <ScrollUpBtn />
         <header className="Work-cv">
           <a
             target="_blank"
