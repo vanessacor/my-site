@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Experiment from "../../components/Experiment";
+import ScrollUpBtn from "../../components/ScrollUpBtn";
 import Data from "../../../experiment2.json";
 
 import "./style.scss";
@@ -37,6 +38,7 @@ class Portfolio extends Component {
           </p>
         </div>
         <div className="Portfolio-experiments">{experiments}</div>
+        <ScrollUpBtn />
       </div>
     );
   }

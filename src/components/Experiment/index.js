@@ -26,7 +26,7 @@ function Experiment(props) {
       <div className="Experiment-links">
         <p>
           <a href={link} target="_blank" alt="github repo">
-            <i class="icon ion-md-cloud-upload"></i>
+            <i className="icon ion-md-cloud-upload"></i>
             Deployed on {deploy}
           </a>
         </p>
