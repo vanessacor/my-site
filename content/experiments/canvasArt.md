@@ -13,7 +13,7 @@
 
 Canvas is fun! I made these pages by following the tutorials from [Chris Courses](https://www.youtube.com/watch?v=EO6OkltgudE&feature=youtu.be)
 
-####What have I learnt:
+#### What have I learnt:
 
 - HTML - canvas
 

@@ -20,6 +20,6 @@ The items are added to a list and the total amount is sum. The user can then del
 - JavaScript (arrays, events, scope, functions)
 - Separate business logic from UI (event handlers, update dom) code
 
-####What I would do differently:
+#### What I would do differently:
 
 - I would had more features, like the possibility to edit an item, to add categories.
