@@ -35,11 +35,11 @@ function About() {
         </p>
       </section>
       <section className="About-section">
-        <h2>Where did I learnt</h2>
+        <h2>Where did I learn from?</h2>
         <p>
           My journey wouldn’t have been possible without the incredible
           communities that are out there ready to support you with no questions
-          asked. I immensely thankful to all the the people involved in:
+          asked. I immensely thankful to all the people involved in:
         </p>
 
         <h4>Communities:</h4>
@@ -48,10 +48,10 @@ function About() {
             <a href="https://codebar.io/barcelona">CodeBar Barcelona</a>
           </li>
           <li>
-            <a href="https://www.womenwhocode.com/">Woman Who Code</a>
+            <a href="https://meetingplace.io/virtual-coffee">Virtual Coffee </a>
           </li>
           <li>
-            <a href="https://meetingplace.io/virtual-coffee">Virtual Coffee </a>
+            <a href="https://www.womenwhocode.com/">Woman Who Code</a>
           </li>
           <li>
             <a href="https://dev.to/">Dev Community</a>
@@ -87,10 +87,22 @@ function About() {
           <li>
             <a href="https://www.taniarascia.com/guides">Tania Rascia</a>
           </li>
+        </ul>
+        <h4>Other Sources</h4>
+        <ul>
           <li>
             <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials">
               MDN
             </a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/">Stack Overflow</a>
+          </li>
+          <li>
+            <a href="https://css-tricks.com/">CSS Tricks</a>
+          </li>
+          <li>
+            <a href="https://www.codewars.com/">Code Wars</a>
           </li>
         </ul>
       </section>
