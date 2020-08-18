@@ -37,9 +37,9 @@ function About() {
       <section className="About-section">
         <h2>Where did I learn from?</h2>
         <p>
-          My journey wouldn’t have been possible without the incredible
-          communities that are out there ready to support you with no questions
-          asked. I immensely thankful to all the people involved in:
+          During my journey I stumble into amazing communities that made my
+          journey possible. These communities are ready to support you with no
+          questions asked. I am so grateful to all the people involved in:
         </p>
 
         <h4>Communities:</h4>

@@ -30,11 +30,11 @@ class Portfolio extends Component {
         <div className="Portfolio-text">
           <p>
             Here you will find all the projects I have done during my journey on
-            how to code. Looking back at them I feel I want to redo all because
-            I know I can do better now. But I decided not to change them because
-            it tells my journey, it tells where I came from and how I got here.
-            For every project I tried to do a retrospective of what I have
-            learnt and what I would do differently.
+            how to code. Looking back at them I want to redo all because I know
+            I can do better now. But I decided not to change them because it
+            tells my journey, it tells where I came from and how I got here. For
+            every project I tried to do a retrospective of what I have learnt
+            and what I would do differently.
           </p>
         </div>
         <div className="Portfolio-experiments">{experiments}</div>

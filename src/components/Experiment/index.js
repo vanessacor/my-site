@@ -33,7 +33,7 @@ function Experiment(props) {
         <p>
           <a href={github} target="_blank" alt="github repo">
             <i className="icon ion-logo-github"></i>
-            View Code on GitHub
+            View Code
           </a>
         </p>
       </div>
