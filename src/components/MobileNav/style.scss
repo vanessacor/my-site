@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 30px;
     background-color: $base-color-dark;
   }
 
@@ -31,6 +32,10 @@
     font-size: 25px;
     font-family: $title-font;
     font-weight: 300;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 
   @media (min-width: 840px) {

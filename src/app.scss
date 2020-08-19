@@ -6,8 +6,9 @@
 
   &-main {
     padding-top: 60px;
+    margin-bottom: 80px;
 
-    @media (min-width: 940px) {
+    @media (min-width: 980px) {
       margin: 0 auto;
       padding-left: 0;
       max-width: 900px;

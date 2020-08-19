@@ -3,7 +3,9 @@
 
 .About {
   &-section {
-    margin-bottom: 60px;
+    &:not(:last-child) {
+      margin-bottom: 60px;
+    }
 
     h4 {
       padding-top: 10px;

@@ -2,34 +2,58 @@
 @import "../../styles/mixins.scss";
 
 .Home {
-  padding-top: 40px;
+  &-intro {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      max-width: 50%;
+      margin: 0 auto;
+      font-size: calc(25px + 0.5vw);
+      font-family: $title-font;
+      font-weight: 300;
+    }
 
-  h2 {
-    max-width: 300px;
-    margin: 0 auto;
-    font-size: calc(25px + 0.5vw);
-    font-family: $title-font;
-    font-weight: 300;
+    &-strong {
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    &-highlight {
+      display: inline-block;
+      position: relative;
+
+      &:before {
+        content: " ";
+        position: absolute;
+        top: 50%;
+        right: 12%;
+        z-index: -1;
+        height: 60%;
+        width: 90%;
+        background-color: $highlight-color;
+      }
+    }
   }
 
-  &-strong {
-    font-weight: 600;
-    font-style: italic;
-  }
+  &-sections {
+    border-top: 2px solid $base-color-dark;
+    padding-top: 40px;
 
-  &-highlight {
-    display: inline-block;
-    position: relative;
-
-    &:before {
-      content: " ";
-      position: absolute;
-      top: 50%;
-      right: 12%;
-      z-index: -1;
-      height: 60%;
-      width: 90%;
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      margin-bottom: 40px;
       background-color: $highlight-color;
+    }
+    a {
+      color: $base-color-dark;
+      font-size: 40px;
+      font-family: $title-font;
     }
   }
 }
