@@ -8,5 +8,3 @@ npm start
 ```
 
 ## Description
-
-## todo
