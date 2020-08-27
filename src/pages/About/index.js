@@ -1,5 +1,7 @@
 import React from "react";
 
+import ScrollUpBtn from "../../components/ScrollUpBtn";
+
 import "./style.scss";
 
 function About() {
@@ -37,9 +39,10 @@ function About() {
       <section className="About-section">
         <h2>Where did I learn from?</h2>
         <p>
-          During my journey I stumble into amazing communities that made my
-          journey possible. These communities are ready to support you with no
-          questions asked. I am so grateful to all the people involved in:
+          During my journey I stumble into amazing communities that made my all
+          my learning easier and exciting. These communities were ready to
+          support me with no questions asked. I am so grateful to all the people
+          involved in:
         </p>
 
         <h4>Communities:</h4>
@@ -106,6 +109,7 @@ function About() {
           </li>
         </ul>
       </section>
+      <ScrollUpBtn />
     </div>
   );
 }
