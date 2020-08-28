@@ -18,7 +18,3 @@ Canvas is fun! I made these pages by following the tutorials from [Chris Courses
 - HTML - canvas
 
 - JavaScript - drawing on canvas and basic animations.
-
-#### What I would do differently:
-
--

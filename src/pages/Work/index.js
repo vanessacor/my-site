@@ -37,7 +37,7 @@ class Work extends Component {
             alt="download cv"
           >
             <i className="icon ion-md-print"></i>
-            <span>Print CV</span>
+            <span>Download CV</span>
           </a>
         </header>
 

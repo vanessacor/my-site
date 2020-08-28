@@ -17,7 +17,3 @@ This simple page is a meme generator built with Create React APP, it takes two t
 #### What have I learnt:
 
 - React - props and state, components and class components, lifecycle methods, fetching data from API.
-
-#### What I would do differently:
-
--

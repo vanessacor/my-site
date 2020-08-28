@@ -25,4 +25,3 @@ This online calculador has the basic math operators but it doesn’t follow the 
 #### What I would do differently:
 
 - I would try to implement PEMDAS and would add more complex operations.
-  ?

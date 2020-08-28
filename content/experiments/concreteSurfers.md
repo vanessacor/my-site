@@ -29,7 +29,3 @@ _note: Yes, it's me in the video almost crashing &#128515;._
 - HTML - DOM API;
 - JavaScript - form validation, events listeners;
 - CSS - positioning (place a play button on video element), flexbox,
-
-#### What I would do differently:
-
-- ?

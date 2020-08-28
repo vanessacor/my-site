@@ -22,7 +22,3 @@ It was a challenge to debug in canvas because a lot of things happen in the same
 #### What have I learnt:
 
 - JavaScript - drawing and animating on canvas. OOP, classes and methods.
-
-#### What I would do differently:
-
--
