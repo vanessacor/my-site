@@ -10,8 +10,8 @@
 
 ---
 
-When I decided to learn web-development, I found the Odin Project and decided to do the [Web development 101](https://www.theodinproject.com/courses/web-development-101). The first assignment was to clone the Google Homepage, it was a very simple exercise but I remember how much I enjoy seeing my work on the web-browser.
-My goal was to build a simple Web page with just HTML and CSS using all I had learnt on the first modules of Odin Project Course. I tried to do the simplest thing and play a bit with the colors gradient and box-shadow. My goal was also to document my learning journey weekly but for some reason I got too hooked on coding and didn't make time for the writing.
+When I started to learn web-development, I found the Odin Project and decided to do the [Web development 101](https://www.theodinproject.com/courses/web-development-101). The first assignment was to clone the Google Homepage, it was a very simple exercise but I remember how much I enjoy seeing my work on the web-browser.
+Here my goal was to build a simple web page with just HTML and CSS using all I had learnt on the first modules of Odin Project Course. I tried to do the simplest thing and play a bit with the CSS. My intention here was also to document my learning journey weekly but for some reason I got too hooked on coding and didn't make time for the writing.
 
 #### What I have learnt:
 
@@ -19,7 +19,3 @@ My goal was to build a simple Web page with just HTML and CSS using all I had le
 - HTML - structure and semantics, elements, tags, attributes;
 - CSS - elements, selectors, declarations, properties and values;
 - How to include google fonts and fontawesome icons.
-
-#### What I would do differently:
-
-- Design wise I probably would chose another color palette.

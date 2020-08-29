@@ -11,15 +11,18 @@
 
 ---
 
-To finish my Javascript module of the [Web development 101](https://www.theodinproject.com/courses/web-development-101) I was asked to make an on-screen calculator using JavaScript, HTML, and CSS.
-
-This was my first project using BDD and although at first I struggled it helped me a lot to write the functions.
+The final project of [Web development 101](https://www.theodinproject.com/courses/web-development-101) was to make an on-screen calculator using JavaScript, HTML, and CSS.
 
 This online calculador has the basic math operators but it doesn’t follow the order of operations (PEMDAS) meaning that all the operations are done by a pair of numbers being evaluated at a time.
 
+Again I design the program by separating the bussiness logic from UI logic.
+
+On the business side, I first created the tests (behavior-driven development) using [Jasmine](https://jasmine.github.io/). Following this approach it helped me a lot to build all the functions and also the structure of the program. This side of the program is responsible to evaluate the expression and to return a result of that evaluation.
+
+On the UI side the program is responsible for the event handlers and updating the DOM.
+
 #### What have I learnt:
 
-- Separate business logic from UI (event handlers, update dom).
 - JavaScript - arrays methods, loop and conditional statements, debugging (dev-tools), BDD using jasmine.
 
 #### What I would do differently:

@@ -11,9 +11,11 @@
 
 ---
 
-On my third project for [Odin Project](https://www.theodinproject.com/courses/web-development-101) I was asked to _“build a browser version of something between a sketchpad and an Etch-A-Sketch”_ to flex my DOM manipulation skills.
+On my third project for [Odin Project](https://www.theodinproject.com/courses/web-development-101). I was asked to _“build a browser version of something between a sketchpad and an Etch-A-Sketch”_ to flex my DOM manipulation skills.
 
-This is a single page where at the top the user chooses the size of the grid, meaning how many squares per line before they start painting. Once the mouse hovers over the grid-container, the squares are _painted_. The user can choose between color-off mode (the squares will be in grayscale) and color-on mode (the colors are randomized).
+Because the goal was to learn DOM manipulation, the game is not draw on HTML canvas but using the createElement, appendChild and removeChild methods.
+
+The program starts with the user choosing the number of squares per line, on input a function is called and it creates a number of squares(divs) that the user choose times 2. For example: a user chooses the 4 then 8 squares will be created, 4 will rows and other fours will columns. For each squares an event-listener is added so it can be painted when the user hovers it. The user can choose between color-off mode (the squares will be in grayscale) and color-on mode (the colors are randomized).
 
 I had a lot of fun with this one and hope you enjoy it.
 

@@ -11,7 +11,7 @@
 
 ---
 
-I wanted to create another static web-page where I would be able to apply my new CSS skills, namely, responsive web-design and mobile first approach.
+I wanted to create another web page where I would be able to apply my new CSS skills, namely, responsive web-design and mobile first approach.
 
 I decided that a photo galery of my instagram photos would be a good project.
 

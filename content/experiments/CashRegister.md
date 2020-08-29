@@ -14,6 +14,9 @@
 The challenge was to build a cash register for an imaginary coffee shop. The user can choose a category from a set list, enter a description and the price (amount).
 The items are added to a list and the total amount is sum. The user can then delete items from the list and the total is updated.
 
+Another webpage created using vanila javascript. This was my first attempt to separate business logic for UI logic. On the business side we have four functions that additems, remove items, calculate total and format currency.
+The UI side is responsible for all the event handlers and DOM manipulation.
+
 #### What have I learnt:
 
 - DOM manipulation (create an element, set attribute, add class)
@@ -22,4 +25,5 @@ The items are added to a list and the total amount is sum. The user can then del
 
 #### What I would do differently:
 
-- I would had more features, like the possibility to edit an item, to add categories.
+- this is defenitly a work in progress.
+- I will have more features, like the possibility to edit an item, to add categories.

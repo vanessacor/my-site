@@ -11,13 +11,15 @@
 
 ---
 
-This was another assignment for the [Odin Project](https://www.theodinproject.com/courses/web-development-101). I was asked to create the classic game of Rock Paper Scissors that would be played on the console. I decided that this was a chance for me to integrate everything I had learned to that point. I built this game using HTML, CSS and JavaScript.
+This was another assignment for the [Odin Project](https://www.theodinproject.com/courses/web-development-101). I was asked to create the classic game of Rock Paper Scissors that would be played on the console. I decided that this was a chance for me to integrate everything I had learned to that point. I built this game using HTML, CSS and Vanilla JavaScript.
 
-It's a user versus computer game. The user first makes their choice by clicking in one of the three choices, and then a timeout is triggered so the user has the "feeling" of time. The result for the round is displayed and the score updated. When one of the players reaches 5 points the game is over and the winner is announced. A reset button is displayed so the user can start a new game.
+In terms of UI it's the classic RPS game, here the user plays against the computer.
+
+The game programe is wrapped in a main function that is called when the page is load. This sets up all the variables and add the event-listeners to the elements. When the user clicks on one of the choices button, a function is called that first disables all the buttons and then set a timeout and last it runs a game round. A timeout is triggered so the user has the "feeling" of time. The round finishes when both computer and user choices are displayed and the score is updated and all the buttons are enable again. The next round is now ready and waiting for the user to make the next move. In every round the program checks the score and if one of the players reaches 5 points the game is over and the winner is announced. A reset button is displayed so the user can start a new game.
 
 I learnt so much javascript doing this project. I remember how hard it was for me to understand some of the core concepts of JS (arguments, parameters, template literals) and after this project I felt like suddenly everything made sense (well... maybe not everything).
 
-I am really proud of myself and have to thank the help of Andre and the coaches from [CodeBar Barcelona](https://codebar.io/barcelona).
+I am really proud of myself and have to thank the help of [Andre](https://andretorgal.com/) and the coaches from [CodeBar Barcelona](https://codebar.io/barcelona).
 
 #### What I have learnt:
 

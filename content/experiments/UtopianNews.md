@@ -22,4 +22,4 @@ The page has a header with a navbar, a main element with sections and articles a
 
 #### What I would do differently:
 
-- In terms of responsiveness a lot can be improved and also the html structure needs to be changed in order to be easier to style it.
+- In terms of responsiveness a lot can be improved and also the html structure needs to be changed in order to be easier to style it and scale it.
