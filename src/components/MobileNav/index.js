@@ -49,9 +49,9 @@ class MobileNav extends Component {
               Work
             </Link>
 
-            <Link onClick={this.hideMenu} className="nav-item" to="/contact">
+            {/* <Link onClick={this.hideMenu} className="nav-item" to="/contact">
               Contact
-            </Link>
+            </Link> */}
           </div>
         )}
       </div>

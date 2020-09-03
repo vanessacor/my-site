@@ -35,13 +35,13 @@ function DesktopNav() {
       >
         Work
       </NavLink>
-      <NavLink
+      {/* <NavLink
         className="DesktopNav-item"
         activeClassName="selected"
         to="/contact"
       >
         Contact
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 }

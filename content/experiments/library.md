@@ -11,14 +11,17 @@
 
 ---
 
-After finishing the front-end module of the 101 web-development I jump into the [JavaScript course](https://www.theodinproject.com/courses/javascript). This was the first project my first experience with Object-oriented programming - OOP.
+After finishing the front-end module of Odin's Web development 101, I jumped into the [JavaScript course](https://www.theodinproject.com/courses/javascript) which focused on Javascript advanced topics and OOP.
 
-The challenge was to create a simple library app. The user can add books with its title, author, genre and status. Users can delete and edit books.
-I used the behavioral test driven approach for the business logic.
+At the end of this module I had to create a simple library application in vanilla Javascript, applying the new concepts. The user can add books with title, author, genre, and status, as well as delete and edit them. It all happen in the browser memory, so if you refresh all changes are lost.
+
+---->>>>>
+
+The program has three main units: the book class is our model, the library Class controls the business logic, and expoess methods to add, read, list, update, and delete books. The third unit takes care of the UI: registers the listeners and handles the events, invokes the library API methods to modify books, and updated the UI state accordingly.
 
 #### What have I learnt:
 
-- JavaScript - objects and object constructor, properties and methods.
+- JavaScript: objects and object constructor, properties and methods.
 
 #### What I would do differently:
 

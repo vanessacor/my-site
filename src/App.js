@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Work from "./pages/Work";
-import Contact from "./pages/Contact";
+// import Contact from "./pages/Contact";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -31,9 +31,9 @@ function App() {
             <Route path="/work">
               <Work />
             </Route>
-            <Route path="/contact">
+            {/* <Route path="/contact">
               <Contact />
-            </Route>
+            </Route> */}
           </Switch>
         </main>
         <Footer />

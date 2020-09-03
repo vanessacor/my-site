@@ -13,13 +13,13 @@
 
 In order to consolidate my learning of HTML and CSS I created another web page, an info page (content from wikipedia) about my favourite animal.
 
-Because I started learning JavaScript following the curriculum in the Odin Project, I decided to include a go to top button with JS. I looked at examples and adapted to my page.
+Because I started learning JavaScript following the curriculum in the Odin Project, I decided to include a go to top button with JS. I looked at examples and adapted to this exercise.
 
 #### What I have learnt:
 
-- JavaScript - functions, addEventListeners, if statements, style attributes;
-- CSS - model box, responsive web-design.
+- JavaScript: functions, _addEventListener()_, _if(...)_ statements, style attributes;
+- CSS: box model, responsive web design.
 
 #### What I would do differently:
 
-- Looking at the code I definitely would structure the HTML differently, less divs and would use the css selectors more wisely, like not #id every element. At the time, it was quite hard for me to know when to apply classes and ids.
+- Looking at the code, I definitely would structure the HTML differently, with less divs, and would use the css selectors more wisely, for instance not using _#id_ in every element. At the time, it was quite hard for me to know when to apply classes and ids.

@@ -17,9 +17,11 @@ The page has a header with a navbar, a main element with sections and articles a
 
 #### What have I learnt:
 
-- For the layout I used the CSS Grid Layout.
-- I also learnt a bit more about Javascript specifically about date formatting. I know this can be done with libraries such as _moment_ but I wanted to try by myself.
+- CSS: more Grid, more practice.
+- Javascript: date formatting (I know it can be done with libraries such as _moment_ but I wanted to try it by myself).
 
 #### What I would do differently:
 
-- In terms of responsiveness a lot can be improved and also the html structure needs to be changed in order to be easier to style it and scale it.
+- The design is a bit uninspired and it made it harder to actually practice.
+- The html structure reflects this, I think I was a bit confused about what I was trying to achieve.
+- In terms of responsiveness a lot could be improved.
