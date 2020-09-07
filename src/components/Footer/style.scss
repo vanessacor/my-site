@@ -7,6 +7,10 @@
   background-color: $base-color-dark;
   color: $highlight-color;
 
+  p {
+    text-align: center;
+  }
+
   ul {
     display: flex;
     flex-direction: row;
@@ -22,6 +26,18 @@
 
     a {
       color: $highlight-color;
+    }
+
+    button {
+      border: none;
+      color: $highlight-color;
+      background-color: transparent;
+      font-size: calc(30px + 0.5vw);
+      cursor: pointer;
+
+      &:focus {
+        outline: none;
+      }
     }
   }
 }

@@ -1,11 +1,12 @@
-import React from "react";
-import "mailgo/dist/mailgo.min.js";
-
+import React, { useState } from "react";
 import "./style.scss";
 
 function Footer() {
+  const [mail, show] = useState(false);
+
   return (
     <footer className="Footer">
+      {mail && <p className="mail">vanessapcbarros@gmail.com</p>}
       <ul className="Footer-media">
         <li className="Footer-media-item">
           <a href="https://www.linkedin.com/in/vanessapoppe/" target="_blank">
@@ -18,14 +19,9 @@ function Footer() {
           </a>
         </li>
         <li className="Footer-media-item">
-          <a
-            className="dark"
-            href="#mailgo"
-            data-address="vanessapcbarros"
-            data-domain="gmail.com"
-          >
+          <button onClick={() => show(!mail)}>
             <i className="icon ion-md-mail"></i>
-          </a>
+          </button>
         </li>
       </ul>
     </footer>
