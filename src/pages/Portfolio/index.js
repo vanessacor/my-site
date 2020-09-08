@@ -29,12 +29,14 @@ class Portfolio extends Component {
         <h2>Experiments</h2>
         <div className="Portfolio-text">
           <p>
-            Here you will find all the projects I have done during my journey on
-            how to code. Looking back at them I want to redo all because I know
-            I can do better now. But I decided not to change them because it
-            tells my journey, it tells where I came from and how I got here. For
-            every project I tried to do a retrospective of what I have learnt
-            and what I would do differently.
+            Here you will find some of the projects I've been building while I'm
+            learning to code.
+          </p>
+          <p>
+            If you scroll from bottom to top you will follow my journey's
+            timeline. The journey starts with very simple projects and as you
+            scroll up the complexity increases as I aquired more skills and
+            learnt more tools.
           </p>
         </div>
         <div className="Portfolio-experiments">{experiments}</div>

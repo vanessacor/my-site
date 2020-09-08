@@ -9,12 +9,20 @@ function Footer() {
       {mail && <p className="mail">vanessapcbarros@gmail.com</p>}
       <ul className="Footer-media">
         <li className="Footer-media-item">
-          <a href="https://www.linkedin.com/in/vanessapoppe/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/vanessapoppe/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="icon ion-logo-linkedin" hrf=""></i>
           </a>
         </li>
         <li className="Footer-media-item">
-          <a href="https://github.com/vanessacor" target="_blank">
+          <a
+            href="https://github.com/vanessacor"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="icon ion-logo-github"></i>
           </a>
         </li>
