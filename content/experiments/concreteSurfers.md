@@ -19,9 +19,9 @@ The page has a brief description of the community, followed by the registration 
 
 **Note:** Yes, it's me in the video almost crashing &#128515;.
 
-#### What have I learnt:
+#### What I learnt:
 
 - UI: what’s a landing page and best practices when creating one.
 - HTML: DOM API.
-- JavaScript: form validation, event _preventDefault()_.
+- JavaScript: form validation, event `preventDefault()`.
 - CSS: positioning (how to place a play button on top of the video element), more flexbox.

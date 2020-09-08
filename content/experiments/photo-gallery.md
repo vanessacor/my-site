@@ -15,7 +15,7 @@ I wanted to create another web page where I would be able to apply my new CSS sk
 
 I decided that a photo galery of my instagram photos would be a good project.
 
-#### Things I have learnt:
+#### Things I learnt:
 
 - HTML - best practices
 - CSS - flex box model

@@ -35,8 +35,8 @@ class Portfolio extends Component {
           <p>
             If you scroll from bottom to top you will follow my journey's
             timeline. The journey starts with very simple projects and as you
-            scroll up the complexity increases as I aquired more skills and
-            learnt more tools.
+            scroll up the complexity increases as I aquire more skills and learn
+            more tools.
           </p>
         </div>
         <div className="Portfolio-experiments">{experiments}</div>

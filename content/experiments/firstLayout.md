@@ -14,7 +14,7 @@ When I started to learn web-development, I found the Odin Project and decided to
 
 My goal here was to build a simple web page with just HTML and CSS using all I had learnt on the first modules of the course. I tried to do the simplest thing and play a bit with the CSS. My intention here was also to document my learning journey weekly but for some reason I got too hooked on coding and didn't make time for the writing.
 
-#### What I have learnt:
+#### What I learnt:
 
 - Git/GitHub: create a repository, clone, add, commit and push.
 - HTML: structure and semantics, elements, tags, attributes.

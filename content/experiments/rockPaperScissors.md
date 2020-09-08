@@ -17,13 +17,13 @@ I decided that this was a chance for me to integrate everything I had learnt up 
 
 The game program is wrapped in a main function that is called when the page is loaded. It sets up all the variables and adds the event listeners to the elements. When the user clicks on one of the choices, it first disables all the buttons and then sets a timeout to display the computer choice. The timeout add to the "feeling" of time.
 
-The round finishes when both computer and user choices are displayed, and the score is updated, and all the buttons are enabled again. The next round is now ready and waiting for the user to make the next move. In every round the program checks the score and if one of the players reaches 5 points the game is over and the winner is announced. Finlly, a reset button is displayed so the user can start a new game.
+The round finishes when both computer and user choices are displayed, and the score is updated, and all the buttons are enabled again. The next round is now ready and waiting for the user to make the next move. In every round the program checks the score and if one of the players reaches 5 points the game is over and the winner is announced. Finally, a reset button is displayed so the user can start a new game.
 
-I learnt so much javascript doing this project. I remember how hard it was for me to understand some of the core concepts of JS (arguments, parameters, template literals) but with this project I felt like suddenly everything started making sense. Well, maybe not everything: the concept of async programming I only consolidated later, but that didn't stop me from using _addEVentListener()_ and _setTimeout()_ successfully.
+I learnt so much javascript doing this project. I remember how hard it was for me to understand some of the core concepts of JS (arguments, parameters, template literals) but with this project I felt like suddenly everything started making sense. Well, maybe not everything: the concept of async programming I only consolidated later, but that didn't stop me from using `addEVentListener()` and `setTimeout()` successfully.
 
 I am really proud of myself and I have to thank the help of [Andre Torgal](https://andretorgal.com/) and the coaches from [CodeBar Barcelona](https://codebar.io/barcelona).
 
-#### What I have learnt:
+#### What I learnt:
 
 - JavaScript: conditional operators, functions (declaration, parameters and return value), arrow functions, loops, template literals, timeouts.
 - CSS: media-queries, grid.

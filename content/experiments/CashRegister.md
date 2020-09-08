@@ -17,13 +17,13 @@ The challenge was to build a simple cash register for an imaginary coffee shop a
 - Allow the user to delete items from the list.
 - Conditionally format negative numbers.
 
-I decide to continue using only vanila Javascript instead of learning libraries or frameworks. I wanted to have a shot at structuring the code, clearly separating the business logic for the UI side. On the business side we have a the core functions to add and remove items, and a couple of utility functions to calculate the total and format currency. The UI side is responsible for all the event handlers and the DOM manipulation. It's a very small program and very easy to read.
+I decide to continue using only vanilla Javascript instead of learning libraries or frameworks. I wanted to have a shot at structuring the code, clearly separating the business logic for the UI side. On the business side we have core functions to add and remove items, and a couple of utility functions to calculate the total and format currency. The UI side is responsible for all the event handlers and the DOM manipulation. It's a very small program and very easy to read.
 
-#### What have I learnt:
+#### What I learnt:
 
 - Clean code: separating business logic from UI.
 - DOM manipulation: create an element, set attribute, add class.
-- JavaScript: arrays, _reduce()_, scope, functions.
+- JavaScript: arrays, high order functions like `reduce()`, scope, functions.
 
 #### What I would do differently:
 

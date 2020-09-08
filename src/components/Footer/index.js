@@ -14,7 +14,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="icon ion-logo-linkedin" hrf=""></i>
+            <i className="icon ion-logo-linkedin"></i>
           </a>
         </li>
         <li className="Footer-media-item">

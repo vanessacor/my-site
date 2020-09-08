@@ -17,13 +17,13 @@ At this point I felt that I could start tasting the waters in the job market and
 
 The decision of building it with React was based only in the fact that I wanted to consolidate my React skills.
 
-The content is written in [Markdown files](link!!! To the girth content/ folder), with a bit of "front matter" to store metadata. The content is read at build time by a little [npm script](link!!! To GitHub src file) that relies on [markdown.it](https://www.npmjs.com/package/markdown-it) to handle the markdown to html conversion and then stores it in a local json file.
+The content is written in [Markdown files](https://github.com/vanessacor/my-site/tree/master/content), with a bit of "front matter" to store metadata. The content is read by a little [npm script](https://github.com/vanessacor/my-site/blob/master/build/getFileData.js) that relies on [markdown.it](https://www.npmjs.com/package/markdown-it) to handle the markdown to html conversion and then [stores it](https://github.com/vanessacor/my-site/blob/master/build/getContent.js) in a local json file.
 
-This allows me to easily to keep my list of projects updated. And it was also fun to build!
+This allows me to easily keep my list of projects updated. And it was also fun to build!
 
 It's deployed on [AWS S3](https://aws.amazon.com/s3/?nc=sn&loc=0) and distributed on [CloudFront](https://aws.amazon.com/cloudfront/?nc2=type_a).
 
-#### What have I learnt:
+#### What I learnt:
 
 - Parse markdown files and extract metadata
 - AWS - host and deploy a static website on S3;
