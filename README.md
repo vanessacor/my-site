@@ -1,10 +1,18 @@
 # My Site
 
+This is my personal website.
+
 ## Getting Started
 
 ```
-npm ci
+npm install
 npm start
 ```
 
-## Description
+## Technologies
+
+This website was created with:
+
+- React
+- Node.js
+- SASS
