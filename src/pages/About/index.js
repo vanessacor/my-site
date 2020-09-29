@@ -54,7 +54,7 @@ function About() {
             <a href="https://meetingplace.io/virtual-coffee">Virtual Coffee </a>
           </li>
           <li>
-            <a href="https://www.womenwhocode.com/">Woman Who Code</a>
+            <a href="https://www.womenwhocode.com/">Women Who Code</a>
           </li>
           <li>
             <a href="https://dev.to/">Dev Community</a>

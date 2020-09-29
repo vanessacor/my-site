@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./style.scss";
 
 function Footer() {
   const [mail, show] = useState(false);
+
+  useEffect(() => {
+    console.log(mail);
+  }, [mail]);
 
   return (
     <footer className="Footer">
@@ -13,6 +17,7 @@ function Footer() {
             href="https://www.linkedin.com/in/vanessapoppe/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Linkedin"
           >
             <i className="icon ion-logo-linkedin"></i>
           </a>
@@ -22,12 +27,13 @@ function Footer() {
             href="https://github.com/vanessacor"
             target="_blank"
             rel="noreferrer"
+            aria-label="Github"
           >
             <i className="icon ion-logo-github"></i>
           </a>
         </li>
         <li className="Footer-media-item">
-          <button onClick={() => show(!mail)}>
+          <button arial-label="show email" onClick={() => show(!mail)}>
             <i className="icon ion-md-mail"></i>
           </button>
         </li>

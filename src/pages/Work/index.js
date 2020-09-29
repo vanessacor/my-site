@@ -85,15 +85,26 @@ class Work extends Component {
           <h2>Languages</h2>
           <ul>
             <li>
-              <img src="https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/portugal-flag-icon-16.png"></img>
+              <img
+                src="https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/portugal-flag-icon-16.png"
+                alt="portuguese flag"
+              ></img>
               Portuguese - native
             </li>
             <li>
-              <img src="https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/united-kingdom-flag-icon-16.png"></img>
+              <img
+                src="https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/united-kingdom-flag-icon-16.png"
+                british
+                flag
+              ></img>
               English - proficient
             </li>
             <li>
-              <img src="https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/spain-flag-icon-16.png"></img>
+              <img
+                src="https://media-vanessapoppe-me.s3-eu-west-1.amazonaws.com/images/spain-flag-icon-16.png"
+                spanish
+                flag
+              ></img>
               Spanish - moderate
             </li>
           </ul>

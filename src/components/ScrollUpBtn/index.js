@@ -42,7 +42,11 @@ class ScrollUpBtn extends Component {
     return (
       <div>
         {scrollDown && (
-          <button onClick={this.goToTop} className="scrollUpBtn">
+          <button
+            aria-label="scroll to top"
+            onClick={this.goToTop}
+            className="scrollUpBtn"
+          >
             Top
           </button>
         )}

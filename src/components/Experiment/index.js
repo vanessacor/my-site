@@ -19,20 +19,33 @@ function Experiment(props) {
         className="Experiment-screenshot"
         target="_blank"
         rel="noreferrer"
-        alt={title}
       >
-        <img src={image} alt={title}></img>
+        <img
+          src={image}
+          alt={title}
+          alt={`a screen shot of ${title} page`}
+        ></img>
       </a>
 
       <div className="Experiment-links">
         <p>
-          <a href={link} target="_blank" rel="noreferrer" alt="github repo">
+          <a
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+            alt={`link to ${title} live site`}
+          >
             <i className="icon ion-md-cloud-upload"></i>
             Deployed on {deploy}
           </a>
         </p>
         <p>
-          <a href={github} target="_blank" rel="noreferrer" alt="github repo">
+          <a
+            href={github}
+            target="_blank"
+            rel="noreferrer"
+            alt={`link to ${title} github repo`}
+          >
             <i className="icon ion-logo-github"></i>
             View Code
           </a>

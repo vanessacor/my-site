@@ -28,7 +28,11 @@ class MobileNav extends Component {
     const { toggled } = this.state;
     return (
       <div className="MobileNav">
-        <button className="MobileNav-button" onClick={this.showMenu}>
+        <button
+          className="MobileNav-button"
+          aria-label="show and hide menu"
+          onClick={this.showMenu}
+        >
           <i className="icon ion-md-menu"></i>
         </button>
         {toggled && (
