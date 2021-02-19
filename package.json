@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "export NODE_ENV=production && webpack"
+    "build": "export NODE_ENV=production && webpack",
+    "content": "node ./build/buildContent.js"
   },
   "plugins": [
     "@babel/plugin-proposal-class-properties"

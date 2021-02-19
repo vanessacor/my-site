@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import Experiment from "../../components/Experiment";
 import ScrollUpBtn from "../../components/ScrollUpBtn";
-import Data from "../../../experiment2.json";
+import Data from "../../../experiments.json";
 
 import "./style.scss";
 

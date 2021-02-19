@@ -17,11 +17,11 @@ findFiles("./content/experiments")
     return ps;
   })
   .then((dataTosave) => {
-    return saveFile(dataTosave, "experiment2.json");
+    return saveFile(dataTosave, "experiments.json");
   })
 
-  .then((result) => {
-    console.log("FINISSHED!", result);
+  .then(() => {
+    console.log("FINISHED!");
   })
 
   .catch((err) => {
