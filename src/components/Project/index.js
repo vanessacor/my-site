@@ -4,19 +4,19 @@ import "./style.scss";
 
 import Tag from "../Tag";
 
-function Experiment(props) {
+function Project(props) {
   const { title, link, image, description, github, tags, deploy } = props;
   function createMarkup() {
     return { __html: `${description}` };
   }
 
   return (
-    <article className="Experiment">
-      <h3 className="Experiment-title">{title}</h3>
+    <article className="Project">
+      <h3 className="Project-title">{title}</h3>
 
       <a
         href={link}
-        className="Experiment-screenshot"
+        className="Project-screenshot"
         target="_blank"
         rel="noreferrer"
       >
@@ -27,7 +27,7 @@ function Experiment(props) {
         ></img>
       </a>
 
-      <div className="Experiment-links">
+      <div className="Project-links">
         <p>
           <a
             href={link}
@@ -53,10 +53,10 @@ function Experiment(props) {
       </div>
 
       <div
-        className="Experiment-description"
+        className="Project-description"
         dangerouslySetInnerHTML={createMarkup()}
       ></div>
-      <ul className="Experiment-tags">
+      <ul className="Project-tags">
         {tags.map((item) => (
           <Tag key={item} tag={item} className={"Tag"} />
         ))}
@@ -65,4 +65,4 @@ function Experiment(props) {
   );
 }
 
-export default Experiment;
+export default Project;

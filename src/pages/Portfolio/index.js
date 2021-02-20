@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Experiment from "../../components/Experiment";
+import Project from "../../components/Project";
 import ScrollUpBtn from "../../components/ScrollUpBtn";
 import Data from "../../../experiments.json";
 
@@ -12,8 +12,8 @@ class Portfolio extends Component {
   }
 
   render() {
-    const experiments = Data.map((item) => (
-      <Experiment
+    const projects = Data.map((item) => (
+      <Project
         key={item.id}
         title={item.title}
         link={item.link}
@@ -26,7 +26,7 @@ class Portfolio extends Component {
     ));
     return (
       <div className="Portfolio">
-        <h2>Experiments</h2>
+        <h2>Projects</h2>
         <div className="Portfolio-text">
           <p>
             Here you will find some of the projects I've been building while I'm
@@ -39,7 +39,7 @@ class Portfolio extends Component {
             more tools.
           </p>
         </div>
-        <div className="Portfolio-experiments">{experiments}</div>
+        <div className="Portfolio-projects">{projects}</div>
         <ScrollUpBtn />
       </div>
     );
