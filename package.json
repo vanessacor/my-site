@@ -4,7 +4,7 @@
   "description": "## Getting Started",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development",
+    "start": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "export NODE_ENV=production && webpack",
     "content": "node ./build/buildContent.js && node ./build/buildJobsContent.js"
@@ -36,15 +36,15 @@
     "sass": "^1.32.8",
     "sass-loader": "^8.0.2",
     "style-loader": "^0.23.1",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
     "markdown-it": "^11.0.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

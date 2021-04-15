@@ -1,6 +1,7 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 const htmlWebpackPlugin = new HtmlWebpackPlugin({
   template: path.join(__dirname, "/public/index.html"),
   filename: "./index.html",
@@ -36,17 +37,19 @@ const config = {
     filename: "bundle.js",
   },
   devServer: {
-    contentBase: path.join(__dirname, "public/"),
     port: 3000,
-    publicPath: "http://localhost:3000/",
-    hot: false,
+    hot: true,
+    compress: true,
+    inline: true,
+    historyApiFallback: true,
+    open: true,
   },
+  devtool: "source-map",
   plugins: [new webpack.HotModuleReplacementPlugin(), htmlWebpackPlugin],
 };
 
 if (env === "production") {
   config.mode = "production";
-  config.devtool = "source-map";
 }
 
 module.exports = config;
