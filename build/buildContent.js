@@ -17,7 +17,7 @@ findFiles("./content/projects")
     return ps;
   })
   .then((dataTosave) => {
-    return saveFile(dataTosave, "experiments.json");
+    return saveFile(dataTosave, "./data/experiments.json");
   })
 
   .then(() => {

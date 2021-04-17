@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import Data from "../../../jobs.json";
+import Data from "../../../data/jobs.json";
 
 import "./style.scss";
 

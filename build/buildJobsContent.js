@@ -17,7 +17,7 @@ findFiles("./content/jobs")
     return ps;
   })
   .then((dataTosave) => {
-    return saveFile(dataTosave, "jobs.json");
+    return saveFile(dataTosave, "./data/jobs.json");
   })
 
   .then((result) => {
