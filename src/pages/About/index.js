@@ -32,6 +32,12 @@ function About() {
           Express, React and built along the way some fun projects.
         </p>
         <p>
+          I just completed a FullStack Bootcamp from{" "}
+          <a href="http://www.factoriaf5.org/">FactoriaF5</a> where I expanded
+          my stack and learn how to apply agile methodologies and work with a
+          team.
+        </p>
+        <p>
           I am currently looking to secure a challenging and rewarding new role
           within the web industry and continue to develop my skills further.
         </p>
@@ -48,64 +54,100 @@ function About() {
         <h4>Communities:</h4>
         <ul>
           <li>
-            <a href="https://codebar.io/barcelona">CodeBar Barcelona</a>
+            <p>
+              <a href="https://virtualcoffee.io/">Virtual Coffee</a> - an
+              amazing Community that supports developers at all levels. I've
+              learn so much just by talking to people, attending the events,
+              listening to the podcasts. Virtual Coffee gave me this trully
+              sense of being part of a community.
+            </p>
           </li>
           <li>
-            <a href="https://meetingplace.io/virtual-coffee">Virtual Coffee </a>
+            <p>
+              <a href="https://codebar.io/barcelona">CodeBar Barcelona</a> - a
+              community that provides a safe space for minority group members to
+              learn programming.
+            </p>
           </li>
           <li>
-            <a href="https://www.womenwhocode.com/">Women Who Code</a>
+            <p>
+              <a href="https://www.womenwhocode.com/">Women Who Code</a>
+            </p>
           </li>
           <li>
-            <a href="https://dev.to/">Dev Community</a>
+            <p>
+              <a href="https://dev.to/">Dev Community</a>
+            </p>
           </li>
         </ul>
 
         <h4>Online Courses:</h4>
         <ul>
           <li>
-            <a href="https://www.theodinproject.com">Odin Project</a>
+            <p>
+              <a href="https://www.theodinproject.com">Odin Project</a>
+            </p>
           </li>
           <li>
-            <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+            <p>
+              <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+            </p>
           </li>
           <li>
-            <a href="https://scrimba.com/">Scrimba</a>
+            <p>
+              <a href="https://scrimba.com/">Scrimba</a>
+            </p>
           </li>
           <li>
-            <a href="https://www.sololearn.com">SoloLearn</a>
+            <p>
+              <a href="https://www.sololearn.com">SoloLearn</a>
+            </p>
           </li>
         </ul>
 
         <h4>Online Tutorials:</h4>
         <ul>
           <li>
-            <a href="https://www.youtube.com/channel/UC9Yp2yz6-pwhQuPlIDV_mjA">
-              Chris Courses
-            </a>
+            <p>
+              <a href="https://www.youtube.com/channel/UC9Yp2yz6-pwhQuPlIDV_mjA">
+                Chris Courses
+              </a>
+            </p>
           </li>
           <li>
-            <a href="https://javascript.info/">The Modern Javascript</a>
+            <p>
+              <a href="https://javascript.info/">The Modern Javascript</a>
+            </p>
           </li>
           <li>
-            <a href="https://www.taniarascia.com/guides">Tania Rascia</a>
+            <p>
+              <a href="https://www.taniarascia.com/guides">Tania Rascia</a>
+            </p>
           </li>
         </ul>
         <h4>Other Sources</h4>
         <ul>
           <li>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials">
-              MDN
-            </a>
+            <p>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials">
+                MDN
+              </a>
+            </p>
           </li>
           <li>
-            <a href="https://stackoverflow.com/">Stack Overflow</a>
+            <p>
+              <a href="https://stackoverflow.com/">Stack Overflow</a>
+            </p>
           </li>
           <li>
-            <a href="https://css-tricks.com/">CSS Tricks</a>
+            <p>
+              <a href="https://css-tricks.com/">CSS Tricks</a>
+            </p>
           </li>
           <li>
-            <a href="https://www.codewars.com/">Code Wars</a>
+            <p>
+              <a href="https://www.codewars.com/">Code Wars</a>
+            </p>
           </li>
         </ul>
       </section>
