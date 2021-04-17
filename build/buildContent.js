@@ -4,9 +4,10 @@ const saveFile = require("./saveFile");
 
 findFiles("./content/projects")
   .then((files) => {
-    const promises = files.map((filename) => {
-      return getFileData(filename);
-    });
+    const promises = files
+      .filter((file) => !file.includes("#"))
+      .map((filename) => getFileData(filename));
+
     return Promise.all(promises);
   })
 
