@@ -22,9 +22,10 @@ findFiles("./content/jobs")
   })
 
   .then((result) => {
-    console.log("FINISSHED!", result);
+    console.log("FINISHED!", result);
   })
 
   .catch((err) => {
-    console.error("faILED!", err);
+    console.error("FAILED!", err);
+    process.exit(3)
   });

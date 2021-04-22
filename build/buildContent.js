@@ -27,4 +27,5 @@ findFiles("./content/projects")
 
   .catch((err) => {
     console.error("faILED!", err);
+    process.exit(3)
   });
