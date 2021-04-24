@@ -15,7 +15,7 @@ class Work extends Component {
 
   render() {
     const jobs = Data;
-    const tags = [
+    const stackTags = [
       "HTML",
       "CSS",
       "JavaScript",
@@ -25,8 +25,17 @@ class Work extends Component {
       "Express",
       "MongoDB",
       "React",
+      "PHP",
+      "Laravel",
+      "MySql",
+      "TDD",
+      "Clean Code",
+      "CI/CD",
+      "Agile",
+      "SCRUM",
+      "Pair Programming"
     ];
-
+  
     return (
       <div className="Work">
         <ScrollUpBtn />
@@ -42,12 +51,13 @@ class Work extends Component {
         </header>
 
         <section className="Work-skills">
-          <h2>Skills</h2>
+          <h2>Skills and Best Practices</h2>
           <ul>
-            {tags.map((item) => (
+            {stackTags.map((item) => (
               <Tag key={item} tag={item} className={"Tag Tag-alt"} />
             ))}
           </ul>
+        
           <p>
             To know more about me please visit <a href="/about">About Page.</a>
           </p>
