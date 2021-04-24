@@ -42,7 +42,7 @@ const config = {
     compress: true,
     inline: true,
     historyApiFallback: true,
-    open: true,
+    open: false,
   },
   devtool: "source-map",
   plugins: [new webpack.HotModuleReplacementPlugin(), htmlWebpackPlugin],
