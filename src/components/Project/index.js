@@ -29,15 +29,18 @@ function Project(props) {
 
       <div className="Project-links">
         <p>
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            alt={`link to ${title} live site`}
-          >
-            <i className="icon ion-md-cloud-upload"></i>
-            Deployed on {deploy}
-          </a>
+          { deploy != "" ? 
+          
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              alt={`link to ${title} live site`}
+            >
+              <i className="icon ion-md-cloud-upload"></i>
+              Deployed on {deploy}
+            </a> : "" }
+          
         </p>
         <p>
           <a
