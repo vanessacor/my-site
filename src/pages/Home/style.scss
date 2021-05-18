@@ -49,11 +49,21 @@
       padding: 20px;
       margin-bottom: 40px;
       background-color: $highlight-color;
+      transition: all 1s ease-in;
+
+      &:hover {
+        background-color: $base-color-dark;
+        a {
+          color: $highlight-color;
+        }
+      }
     }
+
     a {
       color: $base-color-dark;
       font-size: 40px;
       font-family: $title-font;
+      transition: all 1s ease-in-out;
     }
   }
 }
