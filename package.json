@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve",
-    "lint": "eslint src/",
+    "lint": "eslint src/ build/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "export NODE_ENV=production && webpack",
     "content": "node ./build/buildContent.js && node ./build/buildJobsContent.js"

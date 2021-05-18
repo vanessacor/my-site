@@ -1,9 +1,9 @@
-const fsp = require("fs").promises;
-var md = require("markdown-it")();
+const fsp = require('fs').promises;
+const md = require('markdown-it')();
 
-getFileData = (file) => {
-  let ps = fsp.readFile(file, "utf8").then((content) => {
-    const [json, markdown] = content.split("---");
+const getFileData = (file) => {
+  const ps = fsp.readFile(file, 'utf8').then((content) => {
+    const [json, markdown] = content.split('---');
     const data = JSON.parse(json);
     data.description = md.render(markdown);
     return data;

@@ -1,9 +1,9 @@
-const fsp = require("fs").promises;
+const fsp = require('fs').promises;
 
-saveFile = (data, file) => {
+const saveFile = (data, file) => {
   const dataToJson = JSON.stringify(data);
   // const file = "experiment2.json";
-  let ps = fsp.writeFile(file, dataToJson);
+  const ps = fsp.writeFile(file, dataToJson);
 
   return ps;
 };
