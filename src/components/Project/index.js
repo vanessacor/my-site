@@ -29,8 +29,7 @@ function Project(props) {
 
       <div className="Project-links">
         <p>
-          { deploy != "" ? 
-          
+          {deploy != "" ? (
             <a
               href={link}
               target="_blank"
@@ -39,8 +38,10 @@ function Project(props) {
             >
               <i className="icon ion-md-cloud-upload"></i>
               Deployed on {deploy}
-            </a> : "" }
-          
+            </a>
+          ) : (
+            ""
+          )}
         </p>
         <p>
           <a
