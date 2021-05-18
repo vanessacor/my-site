@@ -5,8 +5,6 @@ import MobileNav from '../MobileNav';
 
 import './style.scss';
 
-const fs = require('fs');
-
 function Header() {
   return (
     <div className="Header container">

@@ -18,10 +18,10 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
       - name: Install Dependencies
         run: npm install
-      - name: Lint
-        run: npm run lint
       - name: Build Content
         run: npm run content
+      - name: Lint
+        run: npm run lint
       - name: Build React App
         run: npm run build
       - name: Deploy app build to S3 bucket
