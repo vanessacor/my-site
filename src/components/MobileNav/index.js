@@ -1,65 +1,42 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import './style.scss';
 
-class MobileNav extends Component {
-  constructor() {
-    super();
-    this.state = {
-      toggled: false
-    };
-  }
+function MobileNav() {
+  const [toggle, setToggle] = useState(false);
 
-  showMenu = () => {
-    this.setState((prevState) => {
-      return {
-        toggled: !prevState.toggled
-      };
-    });
-  };
+  return (
+    <div className="MobileNav">
+      <button
+        type="button"
+        className="MobileNav-button"
+        aria-label="show and hide menu"
+        onClick={() => setToggle(true)}
+      >
+        <i className="icon ion-md-menu" />
+      </button>
+      {toggle && (
+        <div className="MobileNav-menu container">
+          <Link onClick={() => setToggle(false)} className="nav-item" to="/">
+            Home
+          </Link>
 
-  hideMenu = () => {
-    this.setState(() => {
-      return {
-        toggled: false
-      };
-    });
-  };
+          <Link onClick={() => setToggle(false)} className="nav-item" to="/about">
+            About
+          </Link>
 
-  render() {
-    const { toggled } = this.state;
-    return (
-      <div className="MobileNav">
-        <button type="button" className="MobileNav-button" aria-label="show and hide menu" onClick={this.showMenu}>
-          <i className="icon ion-md-menu" />
-        </button>
-        {toggled && (
-          <div className="MobileNav-menu container">
-            <Link onClick={this.hideMenu} className="nav-item" to="/">
-              Home
-            </Link>
+          <Link onClick={() => setToggle(false)} className="nav-item" to="/portfolio">
+            Portfolio
+          </Link>
 
-            <Link onClick={this.hideMenu} className="nav-item" to="/about">
-              About
-            </Link>
-
-            <Link onClick={this.hideMenu} className="nav-item" to="/portfolio">
-              Portfolio
-            </Link>
-
-            <Link onClick={this.hideMenu} className="nav-item" to="/work">
-              Work
-            </Link>
-
-            {/* <Link onClick={this.hideMenu} className="nav-item" to="/contact">
-              Contact
-            </Link> */}
-          </div>
-        )}
-      </div>
-    );
-  }
+          <Link onClick={() => setToggle(false)} className="nav-item" to="/work">
+            Work
+          </Link>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default MobileNav;
