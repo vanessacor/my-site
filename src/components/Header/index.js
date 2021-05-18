@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import DesktopNav from "../DesktopNav";
-import MobileNav from "../MobileNav";
+import DesktopNav from '../DesktopNav';
+import MobileNav from '../MobileNav';
 
-import "./style.scss";
+import './style.scss';
+
+const fs = require('fs');
 
 function Header() {
   return (

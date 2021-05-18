@@ -1,25 +1,28 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-import "./style.scss";
+import './style.scss';
 
 class MobileNav extends Component {
-  state = {
-    toggled: false,
-  };
+  constructor() {
+    super();
+    this.state = {
+      toggled: false
+    };
+  }
 
   showMenu = () => {
-    this.setState(function (prevState) {
+    this.setState((prevState) => {
       return {
-        toggled: !prevState.toggled,
+        toggled: !prevState.toggled
       };
     });
   };
 
   hideMenu = () => {
-    this.setState(function () {
+    this.setState(() => {
       return {
-        toggled: false,
+        toggled: false
       };
     });
   };
@@ -28,12 +31,8 @@ class MobileNav extends Component {
     const { toggled } = this.state;
     return (
       <div className="MobileNav">
-        <button
-          className="MobileNav-button"
-          aria-label="show and hide menu"
-          onClick={this.showMenu}
-        >
-          <i className="icon ion-md-menu"></i>
+        <button type="button" className="MobileNav-button" aria-label="show and hide menu" onClick={this.showMenu}>
+          <i className="icon ion-md-menu" />
         </button>
         {toggled && (
           <div className="MobileNav-menu container">

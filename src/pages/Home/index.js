@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import "./style.scss";
-import { Link } from "react-router-dom";
+import './style.scss';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -9,10 +9,9 @@ function Home() {
       <div className="Home-intro">
         <h2>
           An <span className="Home-intro-strong">avid </span>
-          <span className="Home-intro-highlight">Web</span>{" "}
-          <span className="Home-intro-highlight"> Dev</span> learner looking for
-          <span className="Home-intro-strong"> her role</span> in the web
-          industry.
+          <span className="Home-intro-highlight">Web</span> <span className="Home-intro-highlight"> Dev</span> learner
+          looking for
+          <span className="Home-intro-strong"> her role</span> in the web industry.
         </h2>
       </div>
       <div className="Home-sections">

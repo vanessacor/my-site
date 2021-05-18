@@ -1,31 +1,31 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import "./style.scss";
+import './style.scss';
 
 class ScrollUpBtn extends Component {
   constructor() {
     super();
     this.state = {
-      scrollDown: false,
+      scrollDown: false
     };
   }
 
   componentDidMount() {
-    document.addEventListener("scroll", this.checkScroll, false);
+    document.addEventListener('scroll', this.checkScroll, false);
   }
 
   componentWillUnmount() {
-    document.removeEventListener("scroll", this.checkScroll, false);
+    document.removeEventListener('scroll', this.checkScroll, false);
   }
 
   checkScroll = () => {
     if (window.pageYOffset > 300) {
       this.setState({
-        scrollDown: true,
+        scrollDown: true
       });
     } else {
       this.setState({
-        scrollDown: false,
+        scrollDown: false
       });
     }
   };
@@ -33,7 +33,7 @@ class ScrollUpBtn extends Component {
   goToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: 'smooth'
     });
   };
 
@@ -42,11 +42,7 @@ class ScrollUpBtn extends Component {
     return (
       <div>
         {scrollDown && (
-          <button
-            aria-label="scroll to top"
-            onClick={this.goToTop}
-            className="scrollUpBtn"
-          >
+          <button type="button" aria-label="scroll to top" onClick={this.goToTop} className="scrollUpBtn">
             Top
           </button>
         )}

@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "./style.scss";
+import './style.scss';
 
 function Job(props) {
   const { company, location, jobTitle, dates, description } = props;
@@ -15,10 +15,7 @@ function Job(props) {
       </h3>
 
       <p className="Job-dates">{dates}</p>
-      <div
-        className="Job-description"
-        dangerouslySetInnerHTML={createMarkup()}
-      ></div>
+      <div className="Job-description" dangerouslySetInnerHTML={createMarkup()} />
     </div>
   );
 }
