@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ScrollUpBtn from '../../components/ScrollUpBtn';
+import AboutListItem from '../../components/AboutListItem';
 
 import './style.scss';
 
@@ -39,95 +40,40 @@ function About() {
 
         <h4>Communities:</h4>
         <ul>
-          <li>
-            <p>
-              <a href="https://virtualcoffee.io/">Virtual Coffee</a> - an amazing Community that supports developers at
-              all levels. I&apos;ve learn so much just by talking to people, attending the events, listening to the
-              podcasts. Virtual Coffee gave me this trully sense of being part of a community.
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://codebar.io/barcelona">CodeBar Barcelona</a> - a community that provides a safe space for
-              minority group members to learn programming.
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://www.womenwhocode.com/">Women Who Code</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://dev.to/">Dev Community</a>
-            </p>
-          </li>
+          <AboutListItem
+            url="https://virtualcoffee.io/"
+            name="Virtual Coffee"
+            text="- an amazing Community that supports developers at all levels. I've learn so much just by talking to people, attending the events, listening to the podcasts. Virtual Coffee gave me this trully sense of being part of a community."
+          />
+          <AboutListItem
+            url="https://codebar.io/barcelona"
+            name="CodeBar Barcelona"
+            text="- a community that provides a safe space for minority group members to learn programming."
+          />
+          <AboutListItem url="https://www.womenwhocode.com/" name="Women Who Code" text="" />
+          <AboutListItem url="https://dev.to/" name="Dev Community" text="" />
         </ul>
 
         <h4>Online Courses:</h4>
         <ul>
-          <li>
-            <p>
-              <a href="https://www.theodinproject.com">Odin Project</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://scrimba.com/">Scrimba</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://www.sololearn.com">SoloLearn</a>
-            </p>
-          </li>
+          <AboutListItem url="https://www.theodinproject.com" name="Odin Project" text="" />
+          <AboutListItem url="https://www.freecodecamp.org/" name="FreeCodeCamp" text="" />
+          <AboutListItem url="https://scrimba.com/" name="Scrimba" text="" />
+          <AboutListItem url="https://www.sololearn.com" name="SoloLearn" text="" />
         </ul>
 
         <h4>Online Tutorials:</h4>
         <ul>
-          <li>
-            <p>
-              <a href="https://www.youtube.com/channel/UC9Yp2yz6-pwhQuPlIDV_mjA">Chris Courses</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://javascript.info/">The Modern Javascript</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://www.taniarascia.com/guides">Tania Rascia</a>
-            </p>
-          </li>
+          <AboutListItem url="https://www.youtube.com/channel/UC9Yp2yz6-pwhQuPlIDV_mjA" name="Chris Courses" text="" />
+          <AboutListItem url="https://javascript.info/" name="The Modern Javascript" text="" />
+          <AboutListItem url="https://www.taniarascia.com/guides" name="Tania Rascia" text="" />
         </ul>
+
         <h4>Other Sources</h4>
         <ul>
-          <li>
-            <p>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials">MDN</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://stackoverflow.com/">Stack Overflow</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://css-tricks.com/">CSS Tricks</a>
-            </p>
-          </li>
-          <li>
-            <p>
-              <a href="https://www.codewars.com/">Code Wars</a>
-            </p>
-          </li>
+          <AboutListItem url="https://developer.mozilla.org/en-US/docs/Web/JavaScript#Tutorials" name="MDN" text="" />
+          <AboutListItem url="https://stackoverflow.com/" name="Stack Overflow" text="" />
+          <AboutListItem url="https://css-tricks.com/" name="CSS Tricks" text="" />
         </ul>
       </section>
       <ScrollUpBtn />
