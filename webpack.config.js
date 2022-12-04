@@ -1,55 +1,55 @@
-const path = require("path");
-const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const htmlWebpackPlugin = new HtmlWebpackPlugin({
-  template: path.join(__dirname, "/public/index.html"),
-  filename: "./index.html",
+  template: path.join(__dirname, '/public/index.html'),
+  filename: './index.html'
 });
 
-const env = process.env.NODE_ENV || "development";
+const env = process.env.NODE_ENV || 'development';
 
 const config = {
-  entry: "./src/index.js",
-  mode: "development",
+  entry: './src/index.js',
+  mode: 'development',
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
-        loader: "babel-loader",
-        options: { presets: ["@babel/env", "@babel/preset-react"] },
+        loader: 'babel-loader',
+        options: { presets: ['@babel/env', '@babel/preset-react'] }
       },
       {
         test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "sass-loader"],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
       },
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ["file-loader"],
-      },
-    ],
+        use: ['file-loader']
+      }
+    ]
   },
-  entry: { app: "./src/index.js" },
-  resolve: { extensions: ["*", ".js", ".jsx"] },
+  entry: { app: './src/index.js' },
+  resolve: { extensions: ['*', '.js', '.jsx'] },
   output: {
-    path: path.resolve(__dirname, "dist/"),
-    filename: "bundle.js",
+    path: path.resolve(__dirname, 'dist/'),
+    filename: 'bundle.js'
   },
   devServer: {
     port: 3000,
     hot: true,
     compress: true,
-    inline: true,
     historyApiFallback: true,
-    open: false,
+    open: false
   },
-  devtool: "source-map",
-  plugins: [new webpack.HotModuleReplacementPlugin(), htmlWebpackPlugin],
+  devtool: 'source-map',
+  plugins: [new webpack.HotModuleReplacementPlugin(), htmlWebpackPlugin, new MiniCssExtractPlugin()]
 };
 
-if (env === "production") {
-  config.mode = "production";
+if (env === 'production') {
+  config.mode = 'production';
 }
 
 module.exports = config;
