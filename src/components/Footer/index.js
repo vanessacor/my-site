@@ -19,7 +19,7 @@ function Footer() {
           </a>
         </li>
         <li className="Footer-media-item">
-          <button type="button" arial-label="show email" onClick={() => setShowMail(!showMail)}>
+          <button type="button" aria-label="show-email" onClick={() => setShowMail(!showMail)}>
             <i className="icon ion-md-mail" />
           </button>
         </li>
